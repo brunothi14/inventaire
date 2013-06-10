@@ -2,7 +2,8 @@ class EquipementsController < ApplicationController
   # GET /equipements
   # GET /equipements.json
   def index
-    @equipements = Equipement.all
+     @search = Equipement.search(params[:q])
+    @equipements = @search.result
 
     respond_to do |format|
       format.html # index.html.erb

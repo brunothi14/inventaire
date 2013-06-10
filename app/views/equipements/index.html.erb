@@ -1,6 +1,26 @@
-<h1>Listing equipements</h1>
+<h1>Liste des équipements</h1>
 
-<table>
+<br />
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :modele_cont, "Modele est :" %>
+		    <%= f.text_field :modele_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+
+<br />
+<%= link_to 'Nouvel Équipement', new_equipement_path %>
+<br />
+<%= link_to 'Retour', acceuil_index_path %>
+<br />
+<br />
+	
+<table class="table">
   <tr>
     <th>Emplacement</th>
     <th>Stock</th>
@@ -29,7 +49,3 @@
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Equipement', new_equipement_path %>

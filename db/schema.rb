@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130610082641) do
+ActiveRecord::Schema.define(:version => 20130610124314) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -22,6 +22,18 @@ ActiveRecord::Schema.define(:version => 20130610082641) do
     t.string   "description"
     t.decimal  "prix"
     t.decimal  "bonus"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "equipements", :force => true do |t|
+    t.string   "emplacement"
+    t.string   "stock"
+    t.string   "description"
+    t.string   "modele"
+    t.decimal  "prix"
+    t.decimal  "bonus"
+    t.date     "arrivee"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
