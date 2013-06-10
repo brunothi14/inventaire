@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Emplacement:</b>
+  <%= @equipement.emplacement %>
+</p>
+
+<p>
+  <b>Stock:</b>
+  <%= @equipement.stock %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @equipement.description %>
+</p>
+
+<p>
+  <b>Modele:</b>
+  <%= @equipement.modele %>
+</p>
+
+<p>
+  <b>Prix:</b>
+  <%= @equipement.prix %>
+</p>
+
+<p>
+  <b>Bonus:</b>
+  <%= @equipement.bonus %>
+</p>
+
+<p>
+  <b>Arrivee:</b>
+  <%= @equipement.arrivee %>
+</p>
+
+
+<%= link_to 'Edit', edit_equipement_path(@equipement) %> |
+<%= link_to 'Back', equipements_path %>

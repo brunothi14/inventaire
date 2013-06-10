@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fonction:</b>
+  <%= @attachement.fonction %>
+</p>
+
+<p>
+  <b>Emplacement:</b>
+  <%= @attachement.emplacement %>
+</p>
+
+<p>
+  <b>Stock:</b>
+  <%= @attachement.stock %>
+</p>
+
+<p>
+  <b>Marque:</b>
+  <%= @attachement.marque %>
+</p>
+
+<p>
+  <b>Modele:</b>
+  <%= @attachement.modele %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @attachement.description %>
+</p>
+
+<p>
+  <b>Prix:</b>
+  <%= @attachement.prix %>
+</p>
+
+<p>
+  <b>Bonus:</b>
+  <%= @attachement.bonus %>
+</p>
+
+
+<%= link_to 'Edit', edit_attachement_path(@attachement) %> |
+<%= link_to 'Back', attachements_path %>

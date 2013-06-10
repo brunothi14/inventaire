@@ -1,0 +1,35 @@
+<h1>Listing equipements</h1>
+
+<table>
+  <tr>
+    <th>Emplacement</th>
+    <th>Stock</th>
+    <th>Description</th>
+    <th>Modele</th>
+    <th>Prix</th>
+    <th>Bonus</th>
+    <th>Arrivee</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @equipements.each do |equipement| %>
+  <tr>
+    <td><%= equipement.emplacement %></td>
+    <td><%= equipement.stock %></td>
+    <td><%= equipement.description %></td>
+    <td><%= equipement.modele %></td>
+    <td><%= equipement.prix %></td>
+    <td><%= equipement.bonus %></td>
+    <td><%= equipement.arrivee %></td>
+    <td><%= link_to 'Show', equipement %></td>
+    <td><%= link_to 'Edit', edit_equipement_path(equipement) %></td>
+    <td><%= link_to 'Destroy', equipement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Equipement', new_equipement_path %>

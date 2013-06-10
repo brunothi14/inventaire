@@ -1,0 +1,45 @@
+<%= form_for(@equipement) do |f| %>
+  <% if @equipement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@equipement.errors.count, "error") %> prohibited this equipement from being saved:</h2>
+
+      <ul>
+      <% @equipement.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :emplacement %><br />
+    <%= f.text_field :emplacement %>
+  </div>
+  <div class="field">
+    <%= f.label :stock %><br />
+    <%= f.text_field :stock %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :modele %><br />
+    <%= f.text_field :modele %>
+  </div>
+  <div class="field">
+    <%= f.label :prix %><br />
+    <%= f.text_field :prix %>
+  </div>
+  <div class="field">
+    <%= f.label :bonus %><br />
+    <%= f.text_field :bonus %>
+  </div>
+  <div class="field">
+    <%= f.label :arrivee %><br />
+    <%= f.date_select :arrivee %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
