@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  emplacement: MyString
+  stock: MyString
+  marque: MyString
+  modele: MyString
+  description: MyString
+  prix: 9.99
+  bonus: 9.99
+
+two:
+  type: 
+  emplacement: MyString
+  stock: MyString
+  marque: MyString
+  modele: MyString
+  description: MyString
+  prix: 9.99
+  bonus: 9.99

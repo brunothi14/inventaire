@@ -1,0 +1,75 @@
+<%= form_for(@attachement) do |f| %>
+  <% if @attachement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@attachement.errors.count, "error") %> prohibited this attachement from being saved:</h2>
+
+      <ul>
+      <% @attachement.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<table>
+	<tr>
+		<td>
+			<div class="field">
+    			<%= f.label :emplacement %><br />
+    			<%= f.text_field :emplacement %>
+  			</div>
+  		</td>
+  		<td>
+			  <div class="field">
+			    <%= f.label :stock %><br />
+			    <%= f.text_field :stock %>
+			  </div>
+		</td>
+  </tr>
+  <tr>
+  	<td>
+  <div class="field">
+    <%= f.label :marque %><br />
+    <%= f.text_field :marque %>
+  </div>
+  </td>
+  <td>
+  <div class="field">
+    <%= f.label :modele %><br />
+    <%= f.text_field :modele %>
+  </div>
+  </td>
+  </tr>
+  <tr>
+  	<td>
+  		<div class="field">
+    			<%= f.label :description %><br />
+    			<%= f.text_field :description %>
+  		</div>
+  	</td>
+  	<td>
+  <div class="field">
+    <%= f.label :prix %><br />
+    <%= f.text_field :prix %>
+  </div>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <div class="field">
+    <%= f.label :bonus %><br />
+    <%= f.text_field :bonus %>
+  </div>
+  </td>
+  <td>
+  <div class="field">
+			    <%= f.label :fonction %><br />
+			    <%= f.text_field :fonction %>
+	</div>
+  </td>
+  </tr>
+ </table> 
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,51 @@
+<h1>Liste des équipements</h1>
+
+<br />
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :modele_cont, "Modele est :" %>
+		    <%= f.text_field :modele_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+
+<br />
+<%= link_to 'Nouvel Équipement', new_equipement_path %>
+<br />
+<%= link_to 'Retour', acceuil_index_path %>
+<br />
+<br />
+	
+<table class="table">
+  <tr>
+    <th>Emplacement</th>
+    <th>Stock</th>
+    <th>Description</th>
+    <th>Modele</th>
+    <th>Prix</th>
+    <th>Bonus</th>
+    <th>Arrivee</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @equipements.each do |equipement| %>
+  <tr>
+    <td><%= equipement.emplacement %></td>
+    <td><%= equipement.stock %></td>
+    <td><%= equipement.description %></td>
+    <td><%= equipement.modele %></td>
+    <td><%= equipement.prix %></td>
+    <td><%= equipement.bonus %></td>
+    <td><%= equipement.arrivee %></td>
+    <td><%= link_to 'Show', equipement %></td>
+    <td><%= link_to 'Edit', edit_equipement_path(equipement) %></td>
+    <td><%= link_to 'Destroy', equipement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>

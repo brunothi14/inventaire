@@ -1,0 +1,56 @@
+<h1>Liste des attachements</h1>
+
+<br />
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :modele_cont, "Modele est :" %>
+		    <%= f.text_field :modele_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+<br />
+<%= link_to 'Nouvel Attachement', new_attachement_path %>
+<br />
+<%= link_to 'Retour', acceuil_index_path %>
+<br />
+<br />
+
+<table class="table">
+  <tr>
+    <th>Fonction</th>
+    <th>Emplacement</th>
+    <th>Stock</th>
+    <th>Marque</th>
+    <th>Modele</th>
+    <th>Description</th>
+    <th>Prix</th>
+    <th>Bonus</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @attachements.each do |attachement| %>
+  <tr>
+    <td><%= attachement.fonction %></td>
+    <td><%= attachement.emplacement %></td>
+    <td><%= attachement.stock %></td>
+    <td><%= attachement.marque %></td>
+    <td><%= attachement.modele %></td>
+    <td><%= attachement.description %></td>
+    <td><%= attachement.prix %></td>
+    <td><%= attachement.bonus %></td>
+    <td><%= link_to 'Show', attachement %></td>
+    <%-# if can? :update, @attachement %>
+    <td><%= link_to 'Edit', edit_attachement_path(attachement) %></td>
+    <%-# end %>
+    <%-# if can? :destroy, @attachement %>
+    <td><%= link_to 'Destroy', attachement, method: :delete, data: { confirm: 'Êtes-vous sure?' } %></td>
+    <%-# end %>
+  </tr>
+<% end %>
+</table>
