@@ -2,7 +2,9 @@ require 'capistrano/ext/multistage'
 
 set :application, "inventaire"
 set :scm, "git"
-set :repository, "git://github.com/brunothi14/inventaire.git"  # Your clone URL
+#set :repository, "git://github.com/brunothi14/inventaire.git"  # Your clone URL
+set :repository, "git@github.com:brunothi14/inventaire.git"
+set :deploy_via, :remote_cache
 set :scm_passphrase, ""
 #set :repository,  "set your repository location here"
 
@@ -23,7 +25,7 @@ default_run_options[:pty] = true  # Must be set for the password prompt
                                   # from git to work
 
 set :user, "root"  # The server's user for deploys
-set :scm_passphrase, "antonio123"  # The deploy user's password
+set :use_sudo, false
 
 
 
@@ -41,3 +43,12 @@ set :scm_passphrase, "antonio123"  # The deploy user's password
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
  end
+ 
+namespace :gems do
+  task :install do
+    run "cd #{deploy_to}/current && RAILS_ENV=production rake gems:install"
+  end
+end
+
+after :deploy, "gems:install"
+after "gems:install", "deploy:migrate"
