@@ -1,9 +1,9 @@
 require 'capistrano/ext/multistage'
 
-set :application, "inventaire"
+set :application, "extra.centrekubota.ca"
 set :scm, "git"
-#set :repository, "git://github.com/brunothi14/inventaire.git"  # Your clone URL
-set :repository, "git@github.com:brunothi14/inventaire.git"
+set :repository, "git://github.com/brunothi14/inventaire.git"  # Your clone URL
+#set :repository, "git@github.com:brunothi14/inventaire.git"
 set :deploy_via, :remote_cache
 set :scm_passphrase, ""
 #set :repository,  "set your repository location here"
