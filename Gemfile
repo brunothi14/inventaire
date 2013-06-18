@@ -10,9 +10,12 @@ gem 'bootstrap-sass'
 gem 'cancan'
 gem 'ransack'
 gem 'devise'
+<<<<<<< HEAD
 gem 'capistrano'
 gem 'capistrano-ext'
 
+=======
+>>>>>>> master
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

@@ -1,6 +1,9 @@
 Inventaire::Application.routes.draw do
+<<<<<<< HEAD
   devise_for :users
 
+=======
+>>>>>>> master
   resources :equipements
 
 
