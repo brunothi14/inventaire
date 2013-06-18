@@ -18,12 +18,9 @@ test:
   pool: 5
   timeout: 5000
 
-<<<<<<< HEAD
 staging:
   production
-
-=======
->>>>>>> master
+  
 production:
   adapter: sqlite3
   database: db/production.sqlite3
