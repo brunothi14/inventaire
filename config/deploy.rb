@@ -53,11 +53,16 @@ end
   task :install do
     run "cd #{current_path} && bundle install"
   end
+  
+  desc "precompile all file just like production should"
+  task :precompile do
+	run "cd #{current_path} && bundle exec rake assets:precompile"
+  end
 
 end
 
 before "deploy:restart", "bundle:install"
- 
+after "bundle:install, bundle:precompile"
 
 #role :web, "test-extra.centrekubota.ca"                          # Your HTTP server, Apache/etc
 #role :app, "test-extra.centrekubota.ca"                          # This may be the same as your `Web` server
