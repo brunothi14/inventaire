@@ -41519,3 +41519,168 @@ Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 16:04:57 -0400
 Served asset /application.js - 304 Not Modified (2ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-21 11:10:22 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (34.2ms)
+Compiled acceuil.css  (2ms)  (pid 12548)
+Compiled attachements.css  (35ms)  (pid 12548)
+Compiled bootstrap_and_overrides.css  (4744ms)  (pid 12548)
+Compiled equipements.css  (10ms)  (pid 12548)
+Compiled scaffolds.css  (30ms)  (pid 12548)
+Compiled tracteur_neufs.css  (4ms)  (pid 12548)
+Compiled application.css  (5157ms)  (pid 12548)
+Compiled jquery.js  (10ms)  (pid 12548)
+Compiled jquery_ujs.js  (1ms)  (pid 12548)
+Compiled bootstrap-transition.js  (1ms)  (pid 12548)
+Compiled bootstrap-affix.js  (1ms)  (pid 12548)
+Compiled bootstrap-alert.js  (1ms)  (pid 12548)
+Compiled bootstrap-button.js  (1ms)  (pid 12548)
+Compiled bootstrap-carousel.js  (0ms)  (pid 12548)
+Compiled bootstrap-collapse.js  (2ms)  (pid 12548)
+Compiled bootstrap-dropdown.js  (2ms)  (pid 12548)
+Compiled bootstrap-modal.js  (4ms)  (pid 12548)
+Compiled bootstrap-scrollspy.js  (1ms)  (pid 12548)
+Compiled bootstrap-tab.js  (1ms)  (pid 12548)
+Compiled bootstrap-tooltip.js  (1ms)  (pid 12548)
+Compiled bootstrap-popover.js  (1ms)  (pid 12548)
+Compiled bootstrap-typeahead.js  (2ms)  (pid 12548)
+Compiled bootstrap.js  (2423ms)  (pid 12548)
+Compiled acceuil.js  (753ms)  (pid 12548)
+Compiled attachements.js  (326ms)  (pid 12548)
+Compiled equipements.js  (461ms)  (pid 12548)
+Compiled tracteur_neufs.js  (346ms)  (pid 12548)
+Compiled application.js  (4624ms)  (pid 12548)
+Completed 200 OK in 10437ms (Views: 10436.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:33 -0400
+Served asset /acceuil.css - 200 OK (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:33 -0400
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:33 -0400
+Served asset /equipements.css - 200 OK (6ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:33 -0400
+Served asset /attachements.css - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:33 -0400
+Served asset /bootstrap_and_overrides.css - 200 OK (102ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /tracteur_neufs.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /jquery.js - 200 OK (34ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /jquery_ujs.js - 200 OK (15ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-transition.js - 200 OK (16ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-affix.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-alert.js - 200 OK (20ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-button.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-tab.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /bootstrap.js - 200 OK (16ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /acceuil.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /attachements.js - 200 OK (5ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /equipements.js - 200 OK (2ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 127.0.0.1 at 2013-06-21 11:10:34 -0400
+Served asset /tracteur_neufs.js - 200 OK (2ms)
+
+
+Started GET "/attachements" for 127.0.0.1 at 2013-06-21 11:10:54 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mAttachement Load (2.0ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (414.5ms)
+Completed 200 OK in 717ms (Views: 526.9ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/acceuil/index" for 127.0.0.1 at 2013-06-21 11:11:21 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tracteur_neufs" for 127.0.0.1 at 2013-06-21 11:11:23 -0400
+Processing by TracteurNeufsController#index as HTML
+  [1m[35mTracteurNeuf Load (0.0ms)[0m  SELECT "tracteur_neufs".* FROM "tracteur_neufs" 
+  Rendered tracteur_neufs/index.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 183ms (Views: 178.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/acceuil/index" for 127.0.0.1 at 2013-06-21 11:11:24 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 111.4ms | ActiveRecord: 0.0ms)
