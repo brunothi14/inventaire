@@ -41684,3 +41684,28 @@ Started GET "/acceuil/index" for 127.0.0.1 at 2013-06-21 11:11:24 -0400
 Processing by AcceuilController#index as HTML
   Rendered acceuil/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 111ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-11 08:38:25 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (4.0ms)
+Compiled acceuil.css  (2ms)  (pid 3532)
+Compiled attachements.css  (2ms)  (pid 3532)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (different prefix: "c:/" and "d:/BrunoT/Documents/GitHub/inventaire/app/assets/stylesheets"
+  (in d:/BrunoT/Documents/GitHub/inventaire/app/assets/stylesheets/bootstrap_and_overrides.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Inventaire</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!-- <%= image_tag "alaporte.png" %><%= image_tag "ckl.png" %> -->
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___407819796_36568068'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
