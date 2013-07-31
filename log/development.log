@@ -49532,3 +49532,467 @@ Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-31 14:39:18 -0400
 Served asset /equipements.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/acceuil/index" for 127.0.0.1 at 2013-07-31 15:33:32 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 110ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /acceuil.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /attachements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /bootstrap.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /acceuil.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /attachements.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (1ms)
+
+
+Started GET "/equipements" for 127.0.0.1 at 2013-07-31 15:33:33 -0400
+Processing by EquipementsController#index as HTML
+  [1m[36mEquipement Load (0.0ms)[0m  [1mSELECT "equipements".* FROM "equipements" [0m
+  Rendered equipements/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 67ms (Views: 39.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:34 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracteur_neufs" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 23ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 62ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:36 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 127.0.0.1 at 2013-07-31 15:33:40 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)

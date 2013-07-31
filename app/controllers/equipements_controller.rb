@@ -1,6 +1,10 @@
 class EquipementsController < ApplicationController
   # GET /equipements
   # GET /equipements.json
+  
+  before_filter :authenticate_user!
+  
+  
   def index
      @search = Equipement.search(params[:q])
     @equipements = @search.result

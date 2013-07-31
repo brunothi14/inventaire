@@ -1,6 +1,9 @@
 class TracteurNeufsController < ApplicationController
   # GET /tracteur_neufs
   # GET /tracteur_neufs.json
+  
+  before_filter :authenticate_user!
+  
   def index
      @search = TracteurNeuf.search(params[:q])
      @tracteur_neufs = @search.result
