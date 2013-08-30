@@ -51,8 +51,8 @@ set :use_sudo, false
 
 end
 
-after "deploy:restart", "bundle:install"
-after "bundle:install", "bundle:precompile"
+#after "deploy:restart", "bundle:install"
+#after "bundle:install", "bundle:precompile"
 
 #role :web, "test-extra.centrekubota.ca"                          # Your HTTP server, Apache/etc
 #role :app, "test-extra.centrekubota.ca"                          # This may be the same as your `Web` server
