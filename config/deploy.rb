@@ -38,18 +38,18 @@ set :use_sudo, false
    end
  end
 
- namespace :bundle do
-  desc "run bundle install and ensure all gem requirements are met"
-  task :install do
-    run "cd #{current_path} && bundle install"
-  end
+ # namespace :bundle do
+  # desc "run bundle install and ensure all gem requirements are met"
+  # task :install do
+    # run "cd #{current_path} && bundle install"
+  # end
   
-  desc "precompile all file just like production should"
-  task :precompile do
-	run "cd #{current_path} && bundle exec rake assets:precompile"
-  end
+  # desc "precompile all file just like production should"
+  # task :precompile do
+	# run "cd #{current_path} && bundle exec rake assets:precompile"
+  # end
 
-end
+# end
 
 #after "deploy:restart", "bundle:install"
 #after "bundle:install", "bundle:precompile"
