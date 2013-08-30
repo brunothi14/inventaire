@@ -1,9 +1,26 @@
+require 'bundler/capistrano'
+
+# Base
+set :user, "root"  # The server's user for deploys
+set :domain, 'extra.centrekubota.ca'
 set :application, "inventaire"
-set :repository,  "git://github.com/brunothi14/inventaire.git"
+set :applicationdir, '/var/www/rails/inventaire'
+
+#Git config
 set :scm, "git"
+set :repository,  "git://github.com/brunothi14/inventaire.git"
+set :branch, "master"
+
+# Production nodes 
+  role :web, "extra.centrekubota.ca"
+  role :app, "extra.centrekubota.ca"
+  role :db,  "extra.centrekubota.ca", :primary => true
+
+  #Deploy options
+set :deploy_to, applicationdir
 set :deploy_via, :remote_cache
 
-set :user, "root"  # The server's user for deploys
+# Options SSH
 ssh_options[:port] = 2222
 set :use_sudo, false
 
@@ -11,33 +28,6 @@ set :use_sudo, false
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 
-desc "Run tasks in production enviroment."
-task :production do
-	# Prompt to make really sure we want to deploy into prouction
-  puts "\n\e[0;31m   ######################################################################" 
-  puts "   #\n   #       Are you REALLY sure you want to deploy to production?"
-  puts "   #\n   #               Enter y/N + enter to continue\n   #"
-  puts "   ######################################################################\e[0m\n" 
-  proceed = STDIN.gets[0..0] rescue nil 
-  exit unless proceed == 'y' || proceed == 'Y'
-
-  # Production nodes 
-  role :app, "extra.centrekubota.ca"
-  role :app, "extra.centrekubota.ca"
-  role :db,  "extra.centrekubota.ca", :primary => true
-  set :deploy_to, "/var/www/rails/inventaire"
-  set :branch, "stable"
-end 
-
-desc "Run tasks in staging enviroment."
-task :staging do
-  # Staging nodes 
-  role :web, "test-extra.centrekubota.ca"
-  role :app, "test-extra.centrekubota.ca"
-  role :db,  "test-extra.centrekubota.ca", :primary=>true
-  set :deploy_to, "/var/www/rails/inventaire_staging"  
-	set :branch, "master"
-end
 
 # If you are using Passenger mod_rails uncomment this:
  namespace :deploy do
