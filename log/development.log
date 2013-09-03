@@ -50652,3 +50652,3894 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.68.144 at 2013-09-03 03:03:51 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (2.1ms)
+Compiled bootstrap_and_overrides.css  (1936ms)  (pid 3766)
+Compiled photos.css  (1ms)  (pid 3766)
+Compiled application.css  (3ms)  (pid 3766)
+Compiled jquery.js  (1ms)  (pid 3766)
+Compiled jquery_ujs.js  (0ms)  (pid 3766)
+Compiled bootstrap-transition.js  (0ms)  (pid 3766)
+Compiled bootstrap-affix.js  (0ms)  (pid 3766)
+Compiled bootstrap-alert.js  (0ms)  (pid 3766)
+Compiled bootstrap-button.js  (0ms)  (pid 3766)
+Compiled bootstrap-carousel.js  (0ms)  (pid 3766)
+Compiled bootstrap-collapse.js  (0ms)  (pid 3766)
+Compiled bootstrap-dropdown.js  (1ms)  (pid 3766)
+Compiled bootstrap-modal.js  (0ms)  (pid 3766)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 3766)
+Compiled bootstrap-tab.js  (0ms)  (pid 3766)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 3766)
+Compiled bootstrap-popover.js  (0ms)  (pid 3766)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 3766)
+Compiled bootstrap.js  (115ms)  (pid 3766)
+Compiled application.js  (159ms)  (pid 3766)
+Completed 200 OK in 2236ms (Views: 2235.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /acceuil.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap_and_overrides.css - 200 OK (10ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /photos.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-transition.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-carousel.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /attachements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:53 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 03:03:54 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 26ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 03:03:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 128ms (Views: 48.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:54 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:54 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/equipements" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Processing by EquipementsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:55 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 192.168.68.144 at 2013-09-03 03:03:56 -0400
+Processing by AttachementsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 03:03:56 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /attachements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /bootstrap.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:03:57 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 03:57:50 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 8ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 03:57:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (28.0ms)
+Compiled scaffolds.css  (31ms)  (pid 7795)
+Compiled roles.css  (1ms)  (pid 7795)
+Compiled application.css  (7ms)  (pid 7795)
+Compiled roles.js  (135ms)  (pid 7795)
+Compiled application.js  (144ms)  (pid 7795)
+Completed 200 OK in 441ms (Views: 358.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /acceuil.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /equipements.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /roles.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /bootstrap.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /acceuil.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /roles.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /attachements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /equipements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 03:57:51 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 192.168.68.144 at 2013-09-03 03:57:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/devise/registrations/new" for 192.168.68.144 at 2013-09-03 03:58:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/devise/registrations/new"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_up" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/shared/_links.erb (1.8ms)
+  Rendered users/registrations/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 222ms (Views: 143.9ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /attachements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:00:23 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /bootstrap.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /acceuil.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /equipements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:00:24 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:53 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/equipements" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Processing by EquipementsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (1.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:54 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /equipements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:55 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:02:57 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 04:10:15 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 15ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:10:15 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.8ms)
+Compiled user.css  (0ms)  (pid 7933)
+Compiled application.css  (14ms)  (pid 7933)
+Compiled user.js  (156ms)  (pid 7933)
+Compiled application.js  (164ms)  (pid 7933)
+Completed 200 OK in 347ms (Views: 319.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /roles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /user.css - 200 OK (21ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /acceuil.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /roles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:16 -0400
+Served asset /user.js - 200 OK (1ms)
+
+
+Started GET "/equipements" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Processing by EquipementsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:10:17 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /roles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:10:18 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAttachements (20130610064042)
+Migrating to CreateTracteurNeufs (20130610064636)
+Migrating to ChangerColonneTypeAttachement (20130610082641)
+Migrating to CreateEquipements (20130610124314)
+Migrating to DeviseCreateUsers (20130731155341)
+Migrating to DeviseCreateAdmins (20130731194126)
+Migrating to AddAdminToUsers (20130731195516)
+Migrating to AddUsernameToUsers (20130731200437)
+Migrating to AddRoleToUser (20130826185723)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "role" varchar(255) DEFAULT 'client'
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130826185723')[0m
+  [1m[35m (6.0ms)[0m  commit transaction
+Migrating to CreateRoles (20130903070553)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130903070553')[0m
+  [1m[35m (5.4ms)[0m  commit transaction
+Migrating to UsersHaveAndBelongToManyRoles (20130903070630)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "roles_users" ("role_id" integer, "user_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130903070630')[0m
+  [1m[35m (4.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 14ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (1.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 92ms (Views: 61.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /roles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:15 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /acceuil.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /attachements.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:25:16 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAttachements (20130610064042)
+Migrating to CreateTracteurNeufs (20130610064636)
+Migrating to ChangerColonneTypeAttachement (20130610082641)
+Migrating to CreateEquipements (20130610124314)
+Migrating to DeviseCreateUsers (20130731155341)
+Migrating to DeviseCreateAdmins (20130731194126)
+Migrating to AddAdminToUsers (20130731195516)
+Migrating to AddUsernameToUsers (20130731200437)
+Migrating to AddRoleToUser (20130826185723)
+Migrating to CreateRoles (20130903070553)
+Migrating to UsersHaveAndBelongToManyRoles (20130903070630)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/tracteur_neufs" for 192.168.68.144 at 2013-09-03 04:27:30 -0400
+Processing by TracteurNeufsController#index as HTML
+Completed 401 Unauthorized in 23ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 247ms (Views: 160.0ms | ActiveRecord: 20.5ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /attachements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /roles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /acceuil.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /attachements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /equipements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /roles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:31 -0400
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/equipements" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Processing by EquipementsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /user.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /jquery.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:32 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Processing by AttachementsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /photos.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /equipements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:33 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 72ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /roles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /acceuil.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /roles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:34 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/shared/_links.erb (0.5ms)
+  Rendered users/registrations/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 98ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /attachements.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:27:36 -0400
+Served asset /user.js - 304 Not Modified (19ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /bootstrap.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:29 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (16.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /attachements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /user.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /acceuil.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mUPDATE "users" SET "failed_attempts" = 1, "updated_at" = '2013-09-03 08:28:40.249966' WHERE "users"."id" = 1[0m
+  [1m[35m (4.6ms)[0m  commit transaction
+Completed 401 Unauthorized in 114ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered users/shared/_links.erb (0.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 138ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:40 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:28:42 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mUPDATE "users" SET "failed_attempts" = 2, "updated_at" = '2013-09-03 08:28:42.993665' WHERE "users"."id" = 1[0m
+  [1m[35m (5.4ms)[0m  commit transaction
+Completed 401 Unauthorized in 76ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered users/shared/_links.erb (1.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 147ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /equipements.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:43 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "failed_attempts" = 3, "updated_at" = '2013-09-03 08:28:47.464238' WHERE "users"."id" = 1[0m
+  [1m[35m (6.1ms)[0m  commit transaction
+Completed 401 Unauthorized in 78ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered users/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 172ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /acceuil.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:47 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "failed_attempts" = 4, "updated_at" = '2013-09-03 08:28:53.772925' WHERE "users"."id" = 1[0m
+  [1m[35m (5.8ms)[0m  commit transaction
+Completed 401 Unauthorized in 75ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered users/shared/_links.erb (0.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 161ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /equipements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:53 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:28:54 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/password/new" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Processing by Devise::PasswordsController#new as HTML
+  Rendered users/shared/_links.erb (1.0ms)
+  Rendered users/passwords/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:01 -0400
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started POST "/users/password" for 192.168.68.144 at 2013-09-03 04:29:07 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z6AzUmXTYcFkz9X5Sv15C30/1uk/JUctpz/L1xvot/o=", "user"=>{"email"=>"bthibodeau@alaporte.ca"}, "commit"=>"Send me reset password instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."reset_password_token" = 'xTUHNdqriiP8NxPJa31G' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  UPDATE "users" SET "reset_password_token" = 'xTUHNdqriiP8NxPJa31G', "reset_password_sent_at" = '2013-09-03 08:29:07.754209', "updated_at" = '2013-09-03 08:29:07.754705' WHERE "users"."id" = 1
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+  Rendered users/mailer/reset_password_instructions.html.erb (1.3ms)
+
+Sent mail to bthibodeau@alaporte.ca (30016ms)
+Date: Tue, 03 Sep 2013 04:29:07 -0400
+From: authsystem@alaporte.ca
+Reply-To: authsystem@alaporte.ca
+To: bthibodeau@alaporte.ca
+Message-ID: <52259dd3c6879_51e91f163402497e@fraw.langroup.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello bthibodeau@alaporte.ca!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://localhost:3000/users/password/edit?reset_password_token=xTUHNdqriiP8NxPJa31G">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Completed 500 Internal Server Error in 30072ms
+
+Timeout::Error (execution expired):
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:540:in `initialize'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:540:in `open'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:540:in `tcp_socket'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:549:in `block in do_start'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:549:in `do_start'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/smtp.rb:519:in `start'
+  mail (2.5.4) lib/mail/network/delivery_methods/smtp.rb:112:in `deliver!'
+  mail (2.5.4) lib/mail/message.rb:2129:in `do_delivery'
+  mail (2.5.4) lib/mail/message.rb:232:in `block in deliver'
+  actionmailer (3.2.13) lib/action_mailer/base.rb:415:in `block in deliver_mail'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionmailer (3.2.13) lib/action_mailer/base.rb:413:in `deliver_mail'
+  mail (2.5.4) lib/mail/message.rb:232:in `deliver'
+  devise (2.2.4) lib/devise/models/authenticatable.rb:174:in `send_devise_notification'
+  devise (2.2.4) lib/devise/models/recoverable.rb:48:in `send_reset_password_instructions'
+  devise (2.2.4) lib/devise/models/recoverable.rb:110:in `send_reset_password_instructions'
+  devise (2.2.4) app/controllers/devise/passwords_controller.rb:13:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__156711667504077979__process_action__2244469535162948147__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1041533861972616087__call__154148978406260677__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bruno/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/acceuil/index" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/photos.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/roles.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:37 -0400
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /acceuil.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.68.144 at 2013-09-03 04:29:38 -0400
+Served asset /user.js - 304 Not Modified (0ms)

@@ -1,4 +1,7 @@
 Inventaire::Application.routes.draw do
+  resources :roles
+
+
   devise_for :admins
 
   devise_for :users

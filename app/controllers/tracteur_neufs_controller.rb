@@ -3,6 +3,7 @@ class TracteurNeufsController < ApplicationController
   # GET /tracteur_neufs.json
   
   before_filter :authenticate_user!
+  load_and_authorize_resource
   
   def index
      @search = TracteurNeuf.search(params[:q])

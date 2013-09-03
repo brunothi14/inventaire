@@ -3,7 +3,7 @@ class AttachementsController < ApplicationController
   # GET /attachements.json
   
   before_filter :authenticate_user!
-  
+  load_and_authorize_resource
   
   
   # Render mobile or desktop depending on User-Agent for these actions.
