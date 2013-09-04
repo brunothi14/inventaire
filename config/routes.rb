@@ -3,9 +3,6 @@ devise_for :users
   resources :equipements
 
 
-  resources :tracteur_neufs
-
-
   resources :attachements
 
 

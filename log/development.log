@@ -43611,3 +43611,617 @@ Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-07-11 11:03:16 -0400
 Served asset /equipements.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.33.196 at 2013-09-04 16:30:07 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (2.2ms)
+Compiled acceuil.css  (1ms)  (pid 6630)
+Compiled attachements.css  (1ms)  (pid 6630)
+Compiled bootstrap_and_overrides.css  (2214ms)  (pid 6630)
+Compiled equipements.css  (1ms)  (pid 6630)
+Compiled scaffolds.css  (9ms)  (pid 6630)
+Compiled tracteur_neufs.css  (0ms)  (pid 6630)
+Compiled application.css  (2369ms)  (pid 6630)
+Compiled jquery.js  (1ms)  (pid 6630)
+Compiled jquery_ujs.js  (1ms)  (pid 6630)
+Compiled bootstrap-transition.js  (0ms)  (pid 6630)
+Compiled bootstrap-affix.js  (0ms)  (pid 6630)
+Compiled bootstrap-alert.js  (0ms)  (pid 6630)
+Compiled bootstrap-button.js  (0ms)  (pid 6630)
+Compiled bootstrap-carousel.js  (0ms)  (pid 6630)
+Compiled bootstrap-collapse.js  (0ms)  (pid 6630)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 6630)
+Compiled bootstrap-modal.js  (0ms)  (pid 6630)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 6630)
+Compiled bootstrap-tab.js  (0ms)  (pid 6630)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 6630)
+Compiled bootstrap-popover.js  (0ms)  (pid 6630)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 6630)
+Compiled bootstrap.js  (131ms)  (pid 6630)
+Compiled acceuil.js  (84ms)  (pid 6630)
+Compiled attachements.js  (1ms)  (pid 6630)
+Compiled equipements.js  (0ms)  (pid 6630)
+Compiled tracteur_neufs.js  (0ms)  (pid 6630)
+Compiled application.js  (335ms)  (pid 6630)
+Completed 200 OK in 2820ms (Views: 2820.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap_and_overrides.css - 200 OK (37ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /attachements.css - 200 OK (2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /acceuil.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /equipements.css - 200 OK (1ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /tracteur_neufs.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:10 -0400
+Served asset /bootstrap-collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /acceuil.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap.js - 200 OK (21ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /equipements.js - 200 OK (1ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /tracteur_neufs.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.33.196 at 2013-09-04 16:30:11 -0400
+Served asset /attachements.js - 200 OK (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/tracteur_neufs" for 192.168.33.196 at 2013-09-04 16:30:50 -0400
+Processing by TracteurNeufsController#index as HTML
+  [1m[36mTracteurNeuf Load (0.0ms)[0m  [1mSELECT "tracteur_neufs".* FROM "tracteur_neufs" [0m
+  Rendered tracteur_neufs/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 197ms (Views: 132.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/equipements" for 192.168.33.196 at 2013-09-04 16:30:51 -0400
+Processing by EquipementsController#index as HTML
+  [1m[35mEquipement Load (0.1ms)[0m  SELECT "equipements".* FROM "equipements" 
+  Rendered equipements/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 78ms (Views: 74.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/attachements" for 192.168.33.196 at 2013-09-04 16:30:52 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mAttachement Load (0.4ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (69.3ms)
+Completed 200 OK in 143ms (Views: 140.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tracteur_neufs" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Processing by TracteurNeufsController#index as HTML
+  [1m[35mTracteurNeuf Load (0.1ms)[0m  SELECT "tracteur_neufs".* FROM "tracteur_neufs" 
+  Rendered tracteur_neufs/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /acceuil.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /equipements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /attachements.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:12 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/acceuil/index" for 192.168.33.196 at 2013-09-04 17:02:21 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tracteur_neufs.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /tracteur_neufs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracteur_neufs.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /tracteur_neufs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.33.196 at 2013-09-04 17:02:22 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAttachements (20130610064042)
+Migrating to ChangerColonneTypeAttachement (20130610082641)
+Migrating to CreateEquipements (20130610124314)
+Migrating to DeviseCreateUsers (20130614211252)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (3.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130614211252')[0m
+  [1m[35m (7.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/acceuil/index" for 192.168.33.196 at 2013-09-04 17:04:18 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (2.7ms)
+Compiled application.css  (8ms)  (pid 8038)
+Compiled application.js  (3ms)  (pid 8038)
+Completed 500 Internal Server Error in 199ms
+
+ActionView::Template::Error (undefined local variable or method `tracteur_neufs_path' for #<#<Class:0x00000004adb228>:0x000000047966d0>):
+    19:       	<!-- <a class="brand" href="#">INVENTAIRE</a> -->
+    20:       <div class="nav-collapse">
+    21:         <ul class="nav">  
+    22:           <li><%= link_to "Tracteurs Neufs", tracteur_neufs_path %></li>
+    23:           <li><%= link_to "Équipements", equipements_path %></li>
+    24: 		  <li><%= link_to "Attachements", attachements_path %></li>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___2458298476339264337_39189580'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/equipements" for 192.168.33.196 at 2013-09-04 17:04:20 -0400
+Processing by EquipementsController#index as HTML
+  [1m[36mEquipement Load (0.1ms)[0m  [1mSELECT "equipements".* FROM "equipements" [0m
+  Rendered equipements/index.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 139ms
+
+ActionView::Template::Error (undefined local variable or method `tracteur_neufs_path' for #<#<Class:0x00000004a380f0>:0x00000004a44b48>):
+    19:       	<!-- <a class="brand" href="#">INVENTAIRE</a> -->
+    20:       <div class="nav-collapse">
+    21:         <ul class="nav">  
+    22:           <li><%= link_to "Tracteurs Neufs", tracteur_neufs_path %></li>
+    23:           <li><%= link_to "Équipements", equipements_path %></li>
+    24: 		  <li><%= link_to "Attachements", attachements_path %></li>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___2458298476339264337_39189580'
+  app/controllers/equipements_controller.rb:8:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/acceuil/index" for 192.168.33.196 at 2013-09-04 17:04:24 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined local variable or method `tracteur_neufs_path' for #<#<Class:0x00000004adb228>:0x00000004ad3960>):
+    19:       	<!-- <a class="brand" href="#">INVENTAIRE</a> -->
+    20:       <div class="nav-collapse">
+    21:         <ul class="nav">  
+    22:           <li><%= link_to "Tracteurs Neufs", tracteur_neufs_path %></li>
+    23:           <li><%= link_to "Équipements", equipements_path %></li>
+    24: 		  <li><%= link_to "Attachements", attachements_path %></li>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___2458298476339264337_39189580'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 192.168.33.196 at 2013-09-04 17:04:46 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined local variable or method `tracteur_neufs_path' for #<#<Class:0x00000004adb228>:0x00000004a12440>):
+    19:       	<!-- <a class="brand" href="#">INVENTAIRE</a> -->
+    20:       <div class="nav-collapse">
+    21:         <ul class="nav">  
+    22:           <li><%= link_to "Tracteurs Neufs", tracteur_neufs_path %></li>
+    23:           <li><%= link_to "Équipements", equipements_path %></li>
+    24: 		  <li><%= link_to "Attachements", attachements_path %></li>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___2458298476339264337_39189580'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 118ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /attachements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /equipements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /acceuil.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:33 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /acceuil.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /attachements.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:34 -0400
+Served asset /bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/equipements" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Processing by EquipementsController#index as HTML
+  [1m[36mEquipement Load (0.1ms)[0m  [1mSELECT "equipements".* FROM "equipements" [0m
+  Rendered equipements/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 134ms (Views: 67.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 192.168.33.196 at 2013-09-04 17:07:40 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 192.168.33.196 at 2013-09-04 17:07:41 -0400
+Processing by AttachementsController#index as HTML
+  [1m[35mAttachement Load (0.5ms)[0m  SELECT "attachements".* FROM "attachements" 
+  Rendered attachements/index.html.erb within layouts/application (73.8ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 192.168.33.196 at 2013-09-04 17:07:41 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.33.196 at 2013-09-04 17:08:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
