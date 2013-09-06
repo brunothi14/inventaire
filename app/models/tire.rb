@@ -1,3 +1,4 @@
 class Tire < ActiveRecord::Base
-  # attr_accessible :title, :body
+    has_many :tractors
+   attr_accessible :model, :dimension
 end

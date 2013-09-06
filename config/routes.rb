@@ -1,4 +1,7 @@
 Inventaire::Application.routes.draw do
+  resources :tractors
+
+
 devise_for :users
   resources :equipements
 

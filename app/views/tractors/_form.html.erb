@@ -1,0 +1,59 @@
+<%= form_for(@tractor) do |f| %>
+  <% if @tractor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tractor.errors.count, "error") %> prohibited this tractor from being saved:</h2>
+
+      <ul>
+      <% @tractor.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+	<div class="field">
+    <%= f.label "Serie" %><br />
+    <%= f.collection_select(:serie_id, Serie.all, :id, :name ) %>
+    
+    <%-# :color_id is the foreign key that resides in the Users table
+    #:Color.all specifies which records to include in the drop down list
+	#:id is the primary key in the Colors table
+	#:color_name is the field from the Colors table to display in the drop down list
+    -%>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </div>
+  
+  
+  <div class="field">
+    <%= f.label :serial %><br />
+    <%= f.text_field :serial %>
+  </div>
+  <div class="field">
+    <%= f.label :hours %><br />
+    <%= f.number_field :hours, :placeholder => 0 %>
+  </div>
+  <div class="field">
+    <%= f.label :invoice %><br />
+    <%= f.number_field :invoice %>
+  </div>
+  <div class="field">
+    <%= f.label :invdate %><br />
+    <%= f.date_select :invdate %>
+  </div>
+  <div class="field">
+    <%= f.label :fielddate %><br />
+    <%= f.date_select :fielddate %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

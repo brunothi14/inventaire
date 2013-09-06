@@ -1,0 +1,39 @@
+<h1>Listing tractors</h1>
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Serial</th>
+    <th>Hours</th>
+    <th>Invoice</th>
+    <th>Invdate</th>
+    <th>Fielddate</th>
+    <th>Description</th>
+    <th>Jours</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tractors.each do |tractor| %>
+  <tr>
+  	<td><%= tractor.serie.name %></td>
+    <td><%= tractor.model %></td>
+    <td><%= tractor.serial %></td>
+    <td><%= tractor.hours %></td>
+    <td><%= tractor.invoice %></td>
+    <td><%= tractor.invdate %></td>
+    <td><%= tractor.description %></td>
+    <td><%= (Date.today - tractor.fielddate) > 0 ? (Date.today - tractor.fielddate).to_i : 0 %></td>
+    
+    
+    <td><%= link_to 'Show', tractor %></td>
+    <td><%= link_to 'Edit', edit_tractor_path(tractor) %></td>
+    <td><%= link_to 'Destroy', tractor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Tractor', new_tractor_path %>

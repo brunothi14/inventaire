@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Model:</b>
+  <%= @tractor.model %>
+</p>
+
+<p>
+  <b>Serial:</b>
+  <%= @tractor.serial %>
+</p>
+
+<p>
+  <b>Hours:</b>
+  <%= @tractor.hours %>
+</p>
+
+<p>
+  <b>Invoice:</b>
+  <%= @tractor.invoice %>
+</p>
+
+<p>
+  <b>Invdate:</b>
+  <%= @tractor.invdate %>
+</p>
+
+<p>
+  <b>Fielddate:</b>
+  <%= @tractor.fielddate %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @tractor.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_tractor_path(@tractor) %> |
+<%= link_to 'Back', tractors_path %>

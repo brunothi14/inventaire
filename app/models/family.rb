@@ -1,3 +1,5 @@
 class Family < ActiveRecord::Base
-  # attr_accessible :title, :body
+  has_many :tractors
+  
+  attr_accessible :name
 end

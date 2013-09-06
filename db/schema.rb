@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130614211252) do
+ActiveRecord::Schema.define(:version => 20130906003148) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -26,6 +26,12 @@ ActiveRecord::Schema.define(:version => 20130614211252) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "brands", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "equipements", :force => true do |t|
     t.string   "emplacement"
     t.string   "stock"
@@ -36,6 +42,31 @@ ActiveRecord::Schema.define(:version => 20130614211252) do
     t.date     "arrivee"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "families", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "series", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "name"
+  end
+
+  create_table "statuses", :force => true do |t|
+    t.string   "stat"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tires", :force => true do |t|
+    t.string   "model"
+    t.string   "dimension"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "tracteur_neufs", :force => true do |t|
@@ -50,6 +81,21 @@ ActiveRecord::Schema.define(:version => 20130614211252) do
     t.integer  "facture"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "tractors", :force => true do |t|
+    t.string   "model"
+    t.string   "serial"
+    t.integer  "hours"
+    t.integer  "invoice"
+    t.date     "invdate"
+    t.date     "fielddate"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "serie_id"
+    t.integer  "brand_id"
+    t.integer  "family_id"
   end
 
   create_table "users", :force => true do |t|
