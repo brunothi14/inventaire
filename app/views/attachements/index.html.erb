@@ -13,7 +13,9 @@
 	<% end %>
 </div>
 <br />
-<%= link_to 'Nouvel Attachement', new_attachement_path %>
+<%- if can? :create, Attachement %>
+	<%= link_to 'Nouvel Attachement', new_attachement_path %>
+<% end %>
 <br />
 <%= link_to 'Retour', acceuil_index_path %>
 <br />
@@ -44,13 +46,13 @@
     <td><%= attachement.description %></td>
     <td><%= attachement.prix %></td>
     <td><%= attachement.bonus %></td>
-    <td><%= link_to 'Show', attachement %></td>
-    <%-# if can? :update, @attachement %>
-    <td><%= link_to 'Edit', edit_attachement_path(attachement) %></td>
-    <%-# end %>
-    <%-# if can? :destroy, @attachement %>
-    <td><%= link_to 'Destroy', attachement, method: :delete, data: { confirm: 'Êtes-vous sure?' } %></td>
-    <%-# end %>
+    <td><%= link_to 'Details', attachement %></td>
+    <%- if can? :update, Attachement %>
+    <td><%= link_to 'Modifier', edit_attachement_path(attachement) %></td>
+    <%- end %>
+    <%- if can? :destroy, Attachement %>
+    <td><%= link_to 'Supprimer', attachement, method: :delete, data: { confirm: 'Êtes-vous sure?' } %></td>
+    <%- end %>
   </tr>
 <% end %>
 </table>

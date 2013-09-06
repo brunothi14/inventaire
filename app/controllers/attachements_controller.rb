@@ -8,6 +8,8 @@ class AttachementsController < ApplicationController
   # Always render mobile versions for these, regardless of User-Agent.
   before_filter :prepare_for_mobile, :only => :show
   
+  before_filter :authenticate_user!
+  
   def index
     @search = Attachement.search(params[:q])
     @attachements = @search.result

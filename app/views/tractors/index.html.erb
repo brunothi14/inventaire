@@ -20,9 +20,11 @@
   	<th><%= sort_link @search, :location, "Emplacement" %></th>
   	<th><%= sort_link @search, :model, "Modele" %></th>
     <th><%= sort_link @search, :serial, "#Serie" %></th>
+    <th><%= sort_link @search, :stock, "#Stock" %></th>
     <th><%= sort_link @search, :hours, "Heures" %></th>
-    <th><%= sort_link @search, :invoice, "Facture" %></th>
     <th><%= sort_link @search, :status, "Status" %></th>
+    <th><%= sort_link @search, :status, "Prix" %></th>
+    <th><%= sort_link @search, :status, "Bonus" %></th>
     <th><%= sort_link @search, :fielddate, "Jours" %></th>
     <th></th>
     <th></th>
@@ -34,19 +36,26 @@
   	<td><%= tractor.location.name %></td>
   	<td><%= tractor.model %></td>
     <td><%= tractor.serial %></td>
+    <td><%= tractor.stock %></td>
     <td><%= tractor.hours %></td>
-    <td><%= tractor.invoice %></td>
     <td><%= tractor.status.stat %></td>
+    <td><%= tractor.price %></td>
+    <td><%= tractor.bonus %></td>
     <td><%= (Date.today - tractor.fielddate) > 0 ? (Date.today - tractor.fielddate).to_i : 0 %></td>
     
     
-    <td><%= link_to 'Show', tractor %></td>
-    <td><%= link_to 'Edit', edit_tractor_path(tractor) %></td>
-    <td><%= link_to 'Destroy', tractor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Details', tractor %></td>
+    <% if can? :update, Tractor %>
+    	<td><%= link_to 'Modifier', edit_tractor_path(tractor) %></td>
+    <% end %>
+    <% if can? :destroy, Tractor %>
+    	<td><%= link_to 'Supprimer', tractor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  	<% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New Tractor', new_tractor_path %>
+<% if can? :create, Tractor %>
+	<%= link_to 'Nouveau Tracteur', new_tractor_path %>
+<% end %>

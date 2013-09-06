@@ -1,28 +1,52 @@
 <p>
-  <b>Model:</b>
+  <b>Emplacement:</b>
+  <%= @tractor.location.name %>
+</p>
+
+<p>
+  <b>Modele:</b>
   <%= @tractor.model %>
 </p>
 
 <p>
-  <b>Serial:</b>
+  <b>#Serie:</b>
   <%= @tractor.serial %>
 </p>
 
 <p>
-  <b>Hours:</b>
+  <b>#Stock:</b>
+  <%= @tractor.stock %>
+</p>
+
+<p>
+  <b>Heures:</b>
   <%= @tractor.hours %>
 </p>
 
 <p>
-  <b>Invoice:</b>
+  <b>Facture:</b>
   <%= @tractor.invoice %>
 </p>
 
-
+<p>
+  <b>Status:</b>
+  <%= @tractor.status.stat %>
+</p>
 
 <p>
-  <b>Fielddate:</b>
-  <%= @tractor.fielddate %>
+  <b>Prix:</b>
+  <%= @tractor.price %>
+</p>
+
+<p>
+  <b>Bonus:</b>
+  <%= @tractor.bonus %>
+</p>
+
+<p>
+  <b>Jours:</b>
+  <td><%= (Date.today - @tractor.fielddate) > 0 ? (Date.today - @tractor.fielddate).to_i : 0 %></td>
+    
 </p>
 
 <p>

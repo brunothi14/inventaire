@@ -1,4 +1,4 @@
-<%= form_for(@tractor) do |f| %>
+1<%= form_for(@tractor) do |f| %>
   <% if @tractor.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@tractor.errors.count, "error") %> prohibited this tractor from being saved:</h2>
@@ -30,27 +30,41 @@
 
 
   <div class="field">
-    <%= f.label :model %><br />
+    <%= f.label "Modele" %><br />
     <%= f.text_field :model %>
   </div>
   
   
   <div class="field">
-    <%= f.label :serial %><br />
+    <%= f.label "#Serie" %><br />
     <%= f.text_field :serial %>
   </div>
+  
   <div class="field">
-    <%= f.label :hours %><br />
+    <%= f.label "#Stock" %><br />
+    <%= f.text_field :stock %>
+  </div>
+  
+  <div class="field">
+    <%= f.label "Heures" %><br />
     <%= f.number_field :hours, :placeholder => 0 %>
   </div>
   <div class="field">
-    <%= f.label :invoice %><br />
+    <%= f.label "Facture"%><br />
     <%= f.number_field :invoice %>
   </div>
   
   <div class="field">
-    <%= f.label :fielddate %><br />
+    <%= f.label "Date Arrivee" %><br />
     <%= f.date_select :fielddate %>
+  </div>
+  <div class="field">
+    <%= f.label "Prix" %><br />
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :bonus %><br />
+    <%= f.text_field :bonus %>
   </div>
   <div class="field">
     <%= f.label :description %><br />

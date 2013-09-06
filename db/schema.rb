@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130906170936) do
+ActiveRecord::Schema.define(:version => 20130906183245) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -87,10 +87,13 @@ ActiveRecord::Schema.define(:version => 20130906170936) do
     t.integer  "invoice"
     t.date     "fielddate"
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
     t.integer  "status_id"
     t.integer  "location_id"
+    t.decimal  "price",       :precision => 8, :scale => 2
+    t.decimal  "bonus"
+    t.string   "stock"
   end
 
   create_table "users", :force => true do |t|

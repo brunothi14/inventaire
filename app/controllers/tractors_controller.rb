@@ -7,6 +7,8 @@ class TractorsController < ApplicationController
   # Always render mobile versions for these, regardless of User-Agent.
   before_filter :prepare_for_mobile, :only => :show
   
+  before_filter :authenticate_user!
+  
   def index
     @search = Tractor.search(params[:q])
     @tractors = @search.result

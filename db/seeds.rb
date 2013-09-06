@@ -22,3 +22,8 @@ end
 ["LAP", "CKL"].each do |x|
   Location.find_or_create_by_name(x)
 end
+
+# Remplissage de la table Role
+["SuperAdmin", "TractorAdmin", "UsedAdmin", "AttachementAdmin", "ProductAdmin", "User"].each do |x|
+  Role.find_or_create_by_name(x)
+end
