@@ -5,7 +5,6 @@ class CreateTractors < ActiveRecord::Migration
       t.string :serial
       t.integer :hours
       t.integer :invoice
-      t.date :invdate
       t.date :fielddate
       t.text :description
 

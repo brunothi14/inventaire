@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130906134354) do
+ActiveRecord::Schema.define(:version => 20130906170936) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -56,6 +56,17 @@ ActiveRecord::Schema.define(:version => 20130906134354) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "roles", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "roles_users", :id => false, :force => true do |t|
+    t.integer "role_id"
+    t.integer "user_id"
+  end
+
   create_table "statuses", :force => true do |t|
     t.string   "stat"
     t.datetime "created_at", :null => false
@@ -74,7 +85,6 @@ ActiveRecord::Schema.define(:version => 20130906134354) do
     t.string   "serial"
     t.integer  "hours"
     t.integer  "invoice"
-    t.date     "invdate"
     t.date     "fielddate"
     t.text     "description"
     t.datetime "created_at",  :null => false
