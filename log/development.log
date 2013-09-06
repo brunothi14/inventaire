@@ -58943,3 +58943,97 @@ Migrating to UsersHaveAndBelongToManyRoles (20130906170936)
   [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130906170936')[0m
   [1m[35m (13.8ms)[0m  commit transaction
   [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/tractors" for 192.168.230.130 at 2013-09-06 13:19:13 -0400
+Processing by TractorsController#index as HTML
+  [1m[36mTractor Load (0.1ms)[0m  [1mSELECT "tractors".* FROM "tractors" [0m
+  [1m[35mLocation Load (0.1ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1[0m
+  [1m[35mLocation Load (0.1ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1[0m
+  Rendered tractors/index.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 116ms (Views: 113.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/equipements" for 192.168.230.130 at 2013-09-06 13:19:14 -0400
+Processing by EquipementsController#index as HTML
+  [1m[35mEquipement Load (0.1ms)[0m  SELECT "equipements".* FROM "equipements" 
+  Rendered equipements/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/attachements" for 192.168.230.130 at 2013-09-06 13:19:14 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mAttachement Load (1.5ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 111ms (Views: 108.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/equipements" for 192.168.230.189 at 2013-09-06 13:23:49 -0400
+Processing by EquipementsController#index as HTML
+  [1m[35mEquipement Load (0.1ms)[0m  SELECT "equipements".* FROM "equipements" 
+  Rendered equipements/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:49 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 192.168.230.189 at 2013-09-06 13:23:49 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 192.168.230.189 at 2013-09-06 13:23:51 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mAttachement Load (0.4ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 114ms (Views: 112.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:51 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 192.168.230.189 at 2013-09-06 13:23:51 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/tractors" for 192.168.230.189 at 2013-09-06 13:23:52 -0400
+Processing by TractorsController#index as HTML
+  [1m[35mTractor Load (0.1ms)[0m  SELECT "tractors".* FROM "tractors" 
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  Rendered tractors/index.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 94ms (Views: 91.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 192.168.230.189 at 2013-09-06 13:23:52 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:52 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.230.189 at 2013-09-06 13:23:52 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
