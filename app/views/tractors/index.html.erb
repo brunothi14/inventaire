@@ -41,7 +41,7 @@
     <td><%= tractor.status.stat %></td>
     <td><%= tractor.price %></td>
     <td><%= tractor.bonus %></td>
-    <td><%= (Date.today - tractor.fielddate) > 0 ? (Date.today - tractor.fielddate).to_i : 0 %></td>
+    <td><%= ((tractor.fielddate - Date.today).to_i + 365) > 0 ? ((tractor.fielddate - Date.today).to_i + 365) : 0 %></td>
     
     
     <td><%= link_to 'Details', tractor %></td>
