@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130906031638) do
+ActiveRecord::Schema.define(:version => 20130906134354) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -69,20 +69,6 @@ ActiveRecord::Schema.define(:version => 20130906031638) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "tracteur_neufs", :force => true do |t|
-    t.string   "emplacement"
-    t.string   "stock"
-    t.string   "famille"
-    t.string   "modele"
-    t.string   "description"
-    t.decimal  "prix"
-    t.decimal  "bonus"
-    t.date     "arrivee"
-    t.integer  "facture"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
   create_table "tractors", :force => true do |t|
     t.string   "model"
     t.string   "serial"
@@ -93,9 +79,6 @@ ActiveRecord::Schema.define(:version => 20130906031638) do
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.integer  "serie_id"
-    t.integer  "brand_id"
-    t.integer  "family_id"
     t.integer  "status_id"
     t.integer  "location_id"
   end
