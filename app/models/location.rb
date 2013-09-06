@@ -1,5 +1,4 @@
-class Serie < ActiveRecord::Base
+class Location < ActiveRecord::Base
   has_many :tractors
-  
   attr_accessible :name
 end

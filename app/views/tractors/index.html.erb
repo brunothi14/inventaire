@@ -1,15 +1,29 @@
-<h1>Listing tractors</h1>
+<h1>Tracteurs Neufs</h1>
 
-<table>
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :model_or_serial_cont, "Recherche Modele ou #Serie" %>
+		    
+		  
+		    <%= f.text_field :model_or_serial_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+
+
+<table class="table">
   <tr>
-    <th>Model</th>
-    <th>Serial</th>
-    <th>Hours</th>
-    <th>Invoice</th>
-    <th>Invdate</th>
-    <th>Fielddate</th>
-    <th>Description</th>
-    <th>Jours</th>
+  	<th><%= sort_link @search, :location, "Emplacement" %></th>
+  	<th><%= sort_link @search, :model, "Modele" %></th>
+    <th><%= sort_link @search, :serial, "#Serie" %></th>
+    <th><%= sort_link @search, :hours, "Heures" %></th>
+    <th><%= sort_link @search, :invoice, "Facture" %></th>
+    <th><%= sort_link @search, :status, "Status" %></th>
+    <th><%= sort_link @search, :fielddate, "Jours" %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,13 +31,12 @@
 
 <% @tractors.each do |tractor| %>
   <tr>
-  	<td><%= tractor.serie.name %></td>
-    <td><%= tractor.model %></td>
+  	<td><%= tractor.location.name %></td>
+  	<td><%= tractor.model %></td>
     <td><%= tractor.serial %></td>
     <td><%= tractor.hours %></td>
     <td><%= tractor.invoice %></td>
-    <td><%= tractor.invdate %></td>
-    <td><%= tractor.description %></td>
+    <td><%= tractor.status.stat %></td>
     <td><%= (Date.today - tractor.fielddate) > 0 ? (Date.today - tractor.fielddate).to_i : 0 %></td>
     
     

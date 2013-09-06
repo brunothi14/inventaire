@@ -18,14 +18,7 @@ end
   Brand.find_or_create_by_name(x)
 end
 
-
-# Remplissage de la table Family
-["CONST", "IMPLE", "TRCTR", "TURF"].each do |x|
-  Family.find_or_create_by_name(x)
-end
-
-
-# Remplissage de la table Serie
-["KX", "R", "SVL", "U", "BACK", "BLADE", "CAB", "CANO", "GRASS", "KITS", "LOAD", "MOW", "SNOW", "SWEEP", "B", "L", "M", "BX", "F", "GF", "GR", "RTV", "T", "Z"].each do |x|
-  Serie.find_or_create_by_name(x)
+# Remplissage de la table Location
+["LAP", "CKL"].each do |x|
+  Location.find_or_create_by_name(x)
 end

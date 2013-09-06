@@ -1,14 +1,24 @@
 class TractorsController < ApplicationController
   # GET /tractors
   # GET /tractors.json
+  
+  before_filter :check_for_mobile, :only => [:new, :edit]
+
+  # Always render mobile versions for these, regardless of User-Agent.
+  before_filter :prepare_for_mobile, :only => :show
+  
   def index
-    @tractors = Tractor.all
+    @search = Tractor.search(params[:q])
+    @tractors = @search.result
 
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @tractors }
     end
   end
+    
+  
+  
 
   # GET /tractors/1
   # GET /tractors/1.json
