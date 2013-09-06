@@ -22,7 +22,7 @@ staging:
   production
   
 production:
-  adapter: mysql
+  adapter: mysql2
   database: inventaire
   username: root
   password: mqlkub123
