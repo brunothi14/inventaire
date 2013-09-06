@@ -8,7 +8,6 @@ class CreateTractors < ActiveRecord::Migration
       t.date :invdate
       t.date :fielddate
       t.text :description
-      t.boolean :used
 
       t.timestamps
     end
