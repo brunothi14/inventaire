@@ -19,5 +19,12 @@ class ApplicationController < ActionController::Base
   def prepare_for_mobile
     prepend_view_path Rails.root + 'app' + 'views_mobile'
   end
+  
+  
+  rescue_from CanCan::AccessDenied do |exception|
+    flash[:error] = exception.message
+    redirect_to root_url
+  end
+  
     
 end

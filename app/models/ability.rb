@@ -16,7 +16,6 @@ class Ability
       #end
       #can :manage, Asset do |asset|
       #  asset.assetable.try(:owner) == user
-      end
     end
   end
 end
