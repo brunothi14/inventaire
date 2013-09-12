@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130911201945) do
+ActiveRecord::Schema.define(:version => 20130912183953) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -52,6 +52,32 @@ ActiveRecord::Schema.define(:version => 20130911201945) do
 
   create_table "locations", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "rental_fleet2s", :force => true do |t|
+    t.string   "model"
+    t.string   "serial"
+    t.string   "client"
+    t.string   "location"
+    t.date     "dateout"
+    t.string   "salesman"
+    t.date     "datereturn"
+    t.integer  "hours"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "rental_fleets", :force => true do |t|
+    t.string   "model"
+    t.string   "serial"
+    t.string   "client"
+    t.string   "location"
+    t.date     "dateout"
+    t.string   "salesman"
+    t.date     "datereturn"
+    t.integer  "hours"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

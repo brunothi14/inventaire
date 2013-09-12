@@ -1,4 +1,10 @@
 Inventaire::Application.routes.draw do
+  resources :rental_fleet2s
+
+
+  resources :rental_fleets
+
+
   resources :snowblowers
 
 

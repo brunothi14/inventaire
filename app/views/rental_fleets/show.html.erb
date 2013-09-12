@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Model:</b>
+  <%= @rental_fleet.model %>
+</p>
+
+<p>
+  <b>Serial:</b>
+  <%= @rental_fleet.serial %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%= @rental_fleet.client %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @rental_fleet.location %>
+</p>
+
+<p>
+  <b>Dateout:</b>
+  <%= @rental_fleet.dateout %>
+</p>
+
+<p>
+  <b>Salesman:</b>
+  <%= @rental_fleet.salesman %>
+</p>
+
+<p>
+  <b>Datereturn:</b>
+  <%= @rental_fleet.datereturn %>
+</p>
+
+<p>
+  <b>Hours:</b>
+  <%= @rental_fleet.hours %>
+</p>
+
+
+<%= link_to 'Edit', edit_rental_fleet_path(@rental_fleet) %> |
+<%= link_to 'Back', rental_fleets_path %>

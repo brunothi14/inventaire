@@ -1,0 +1,2 @@
+module RentalFleet2sHelper
+end

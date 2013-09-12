@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  model: MyString
+  serial: MyString
+  client: MyString
+  location: MyString
+  dateout: 2013-09-12
+  salesman: MyString
+  datereturn: 2013-09-12
+  hours: 1
+
+two:
+  model: MyString
+  serial: MyString
+  client: MyString
+  location: MyString
+  dateout: 2013-09-12
+  salesman: MyString
+  datereturn: 2013-09-12
+  hours: 1

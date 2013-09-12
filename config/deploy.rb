@@ -47,7 +47,7 @@ set :use_sudo, false
   task :import_remote_db do
    
     filename = "dump.#{Time.now.strftime '%Y-%m-%d_%H:%M:%S'}.sql"
-    dbuser = "root
+    dbuser = "root"
     dbhost = "extra.centrekubota.ca"
     dbpassword = "mqlkub123"
     application_db = "inventaire"

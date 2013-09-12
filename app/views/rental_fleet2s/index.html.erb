@@ -1,0 +1,37 @@
+<h1>Listing rental_fleet2s</h1>
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Serial</th>
+    <th>Client</th>
+    <th>Location</th>
+    <th>Dateout</th>
+    <th>Salesman</th>
+    <th>Datereturn</th>
+    <th>Hours</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @rental_fleet2s.each do |rental_fleet2| %>
+  <tr>
+    <td><%= rental_fleet2.model %></td>
+    <td><%= rental_fleet2.serial %></td>
+    <td><%= rental_fleet2.client %></td>
+    <td><%= rental_fleet2.location %></td>
+    <td><%= rental_fleet2.dateout %></td>
+    <td><%= rental_fleet2.salesman %></td>
+    <td><%= rental_fleet2.datereturn %></td>
+    <td><%= rental_fleet2.hours %></td>
+    <td><%= link_to 'Show', rental_fleet2 %></td>
+    <td><%= link_to 'Edit', edit_rental_fleet2_path(rental_fleet2) %></td>
+    <td><%= link_to 'Destroy', rental_fleet2, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Rental fleet2', new_rental_fleet2_path %>

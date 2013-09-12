@@ -1,0 +1,49 @@
+<%= form_for(@rental_fleet) do |f| %>
+  <% if @rental_fleet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@rental_fleet.errors.count, "error") %> prohibited this rental_fleet from being saved:</h2>
+
+      <ul>
+      <% @rental_fleet.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </div>
+  <div class="field">
+    <%= f.label :serial %><br />
+    <%= f.text_field :serial %>
+  </div>
+  <div class="field">
+    <%= f.label :client %><br />
+    <%= f.text_field :client %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :dateout %><br />
+    <%= f.date_select :dateout %>
+  </div>
+  <div class="field">
+    <%= f.label :salesman %><br />
+    <%= f.text_field :salesman %>
+  </div>
+  <div class="field">
+    <%= f.label :datereturn %><br />
+    <%= f.date_select :datereturn %>
+  </div>
+  <div class="field">
+    <%= f.label :hours %><br />
+    <%= f.number_field :hours %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
