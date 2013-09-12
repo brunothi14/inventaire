@@ -36,12 +36,15 @@
 
 <% @snowblowers.each do |snowblower| %>
   <tr>
+  	<td><%= snowblower.location.name %></td>
     <td><%= snowblower.brand %></td>
     <td><%= snowblower.model %></td>
     <td><%= snowblower.color %></td>
     <td><%= snowblower.stock %></td>
     <td><%= snowblower.serial %></td>
     <td><%= snowblower.description %></td>
+    <td><%= snowblower.status.stat %></td>
+    
     <td><%= snowblower.price %></td>
     <td><%= snowblower.bonus %></td>
     <td><%= link_to 'Show', snowblower %></td>

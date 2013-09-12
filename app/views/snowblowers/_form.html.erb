@@ -11,24 +11,41 @@
     </div>
   <% end %>
 
+	<div class="field">
+    <%= f.label "Status" %><br />
+    <%= f.collection_select(:status_id, Status.all, :id, :stat ) %>
+    
+    <%-# :color_id is the foreign key that resides in the Users table
+    #:Color.all specifies which records to include in the drop down list
+	#:id is the primary key in the Colors table
+	#:color_name is the field from the Colors table to display in the drop down list
+    -%>
+  </div>
+
+
+	<div class="field">
+    <%= f.label "Emplacement" %><br />
+    <%= f.collection_select(:location_id, Location.all, :id, :name ) %>    
+  </div>
+
   <div class="field">
-    <%= f.label :brand %><br />
+    <%= f.label "Marque" %><br />
     <%= f.text_field :brand %>
   </div>
   <div class="field">
-    <%= f.label :model %><br />
+    <%= f.label "Modele" %><br />
     <%= f.text_field :model %>
   </div>
   <div class="field">
-    <%= f.label :color %><br />
+    <%= f.label "Couleur" %><br />
     <%= f.text_field :color %>
   </div>
   <div class="field">
-    <%= f.label :stock %><br />
+    <%= f.label "# Stock" %><br />
     <%= f.text_field :stock %>
   </div>
   <div class="field">
-    <%= f.label :serial %><br />
+    <%= f.label "# Serie" %><br />
     <%= f.text_field :serial %>
   </div>
   <div class="field">
@@ -36,7 +53,7 @@
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :price %><br />
+    <%= f.label "Prix" %><br />
     <%= f.text_field :price %>
   </div>
   <div class="field">

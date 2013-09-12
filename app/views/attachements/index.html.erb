@@ -19,6 +19,12 @@
 <br />
 <%= link_to 'Retour a l\'accueil', acceuil_index_path %>
 <br />
+<p>
+  Telecharger la liste:
+  <%= link_to "CSV", attachements_path(format: "csv") %> |
+  <%= link_to "Excel", attachements_path(format: "xls") %>
+</p>
+
 <br />
 
 <table class="table">
