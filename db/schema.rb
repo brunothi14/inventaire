@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130912183953) do
+ActiveRecord::Schema.define(:version => 20130912210036) do
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -106,6 +106,7 @@ ActiveRecord::Schema.define(:version => 20130912183953) do
     t.integer  "status_id"
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
+    t.date     "fielddate"
   end
 
   create_table "statuses", :force => true do |t|
