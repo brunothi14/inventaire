@@ -1,4 +1,7 @@
 Inventaire::Application.routes.draw do
+  resources :snowblowers
+
+
   resources :tractors
 
 

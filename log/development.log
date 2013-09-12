@@ -70174,3 +70174,2090 @@ Served asset /equipements.js - 304 Not Modified (22ms)
 
 Started GET "/assets/tractors.js?body=1" for 192.168.230.130 at 2013-09-06 16:53:21 -0400
 Served asset /tractors.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (2.4ms)
+Compiled snowblowers.css  (1ms)  (pid 29639)
+Compiled application.css  (34ms)  (pid 29639)
+Compiled snowblowers.js  (261ms)  (pid 29639)
+Compiled application.js  (271ms)  (pid 29639)
+Completed 200 OK in 512ms (Views: 510.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /acceuil.css - 200 OK (2ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /attachements.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap_and_overrides.css - 200 OK (34ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /snowblowers.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /tractors.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /equipements.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-affix.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-collapse.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:09 -0400
+Served asset /bootstrap.js - 200 OK (20ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /acceuil.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /attachements.js - 200 OK (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /equipements.js - 200 OK (1ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /snowblowers.js - 200 OK (2ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:20:10 -0400
+Served asset /tractors.js - 200 OK (25ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:20:20 -0400
+Processing by SnowblowersController#index as HTML
+Completed 500 Internal Server Error in 64ms
+
+ActiveRecord::StatementInvalid (Could not find table 'snowblowers'):
+  app/controllers/snowblowers_controller.rb:5:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAttachements (20130610064042)
+Migrating to CreateEquipements (20130610124314)
+Migrating to DeviseCreateUsers (20130614211252)
+Migrating to CreateBrands (20130904213418)
+Migrating to CreateFamilies (20130904213455)
+Migrating to CreateTires (20130904213513)
+Migrating to CreateTractors (20130905145611)
+Migrating to CreateStatuses (20130905182646)
+Migrating to CreateLocations (20130906031552)
+Migrating to CreateRoles (20130906170718)
+Migrating to UsersHaveAndBelongToManyRoles (20130906170936)
+Migrating to CreateSnowblowers (20130911201945)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "snowblowers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "brand" varchar(255), "model" varchar(255), "color" varchar(255), "stock" varchar(255), "serial" varchar(255), "description" text, "price" decimal(8,2), "bonus" decimal(8,2), "location_id" integer, "status_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130911201945')[0m
+  [1m[35m (25.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Processing by SnowblowersController#index as HTML
+Completed 401 Unauthorized in 19ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.5ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/sessions/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 111ms (Views: 74.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /acceuil.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:45 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /bootstrap.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:46 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/tractors" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Processing by TractorsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/shared/_links.erb (0.3ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /attachements.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /equipements.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:41:50 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wReAf0P2eJClUMvTWA/6Tc3At9UnPuC6J3bV1TzkJjw=", "user"=>{"email"=>"sleroux@centrekubota.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'sleroux@centrekubota.ca' LIMIT 1[0m
+Completed 401 Unauthorized in 37ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wReAf0P2eJClUMvTWA/6Tc3At9UnPuC6J3bV1TzkJjw=", "user"=>{"email"=>"sleroux@centrekubota.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/shared/_links.erb (0.4ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/devise-2.2.4/app/views/devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 130ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /acceuil.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:02 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wReAf0P2eJClUMvTWA/6Tc3At9UnPuC6J3bV1TzkJjw=", "user"=>{"email"=>"bthibodeau@alaporte.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'bthibodeau@alaporte.ca' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-09-06 18:50:05.147795', "current_sign_in_at" = '2013-09-11 20:42:14.480209', "last_sign_in_ip" = '192.168.230.130', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 3, "updated_at" = '2013-09-11 20:42:14.483932' WHERE "users"."id" = 1
+  [1m[36m (15.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tractors
+Completed 302 Found in 139ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tractors" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Processing by TractorsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1[0m
+  [1m[35mTractor Load (0.2ms)[0m  SELECT "tractors".* FROM "tractors" 
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  Rendered tractors/index.html.erb within layouts/application (155.9ms)
+Completed 200 OK in 230ms (Views: 220.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /acceuil.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /attachements.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:14 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:42:15 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:42:17 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mSnowblower Load (0.1ms)[0m  SELECT "snowblowers".* FROM "snowblowers" 
+  Rendered snowblowers/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (No Ransack::Search object was provided to search_form_for!):
+    2: 
+    3: 
+    4: <div class="search">
+    5: 	<%= search_form_for @search do |f|%>
+    6: 		<div class="field">
+    7: 		    <%= f.label :model_or_serial_stock_cont, "Recherche Modele ou #Serie" %>
+    8: 		    
+  app/views/snowblowers/index.html.erb:5:in `_app_views_snowblowers_index_html_erb__2552630480687157707_38285220'
+  app/controllers/snowblowers_controller.rb:17:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:42:52 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mSnowblower Load (0.1ms)[0m  SELECT "snowblowers".* FROM "snowblowers" 
+  Rendered snowblowers/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No Ransack::Search object was provided to search_form_for!):
+    2: 
+    3: 
+    4: <div class="search">
+    5: 	<%= search_form_for @search do |f|%>
+    6: 		<div class="field">
+    7: 		    <%= f.label :model_or_serial_or_stock_cont, "Recherche Modele ou #Serie" %>
+    8: 		    
+  app/views/snowblowers/index.html.erb:5:in `_app_views_snowblowers_index_html_erb__2552630480687157707_70031288686460'
+  app/controllers/snowblowers_controller.rb:17:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /tractors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /attachements.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:04 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/tractors" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Processing by TractorsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRole Load (0.5ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1[0m
+  [1m[35mTractor Load (0.2ms)[0m  SELECT "tractors".* FROM "tractors" 
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  Rendered tractors/index.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 126ms (Views: 123.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:05 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 127.0.0.1 at 2013-09-11 16:43:06 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRole Load (0.1ms)[0m  SELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1
+  [1m[36mAttachement Load (0.3ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (77.4ms)
+Completed 200 OK in 152ms (Views: 149.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:43:07 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:43:08 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mSnowblower Load (0.1ms)[0m  [1mSELECT "snowblowers".* FROM "snowblowers" [0m
+  Rendered snowblowers/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No Ransack::Search object was provided to search_form_for!):
+    2: 
+    3: 
+    4: <div class="search">
+    5: 	<%= search_form_for @search do |f|%>
+    6: 		<div class="field">
+    7: 		    <%= f.label :model_or_serial_or_stock_cont, "Recherche Modele ou #Serie" %>
+    8: 		    
+  app/views/snowblowers/index.html.erb:5:in `_app_views_snowblowers_index_html_erb__2552630480687157707_70031288686460'
+  app/controllers/snowblowers_controller.rb:17:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:44:13 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mSnowblower Load (0.1ms)[0m  [1mSELECT "snowblowers".* FROM "snowblowers" [0m
+  Rendered snowblowers/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 141ms (Views: 68.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /attachements.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:14 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/tractors" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Processing by TractorsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1[0m
+  [1m[35mTractor Load (0.2ms)[0m  SELECT "tractors".* FROM "tractors" 
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  Rendered tractors/index.html.erb within layouts/application (114.4ms)
+Completed 200 OK in 185ms (Views: 178.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:18 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mSnowblower Load (0.1ms)[0m  SELECT "snowblowers".* FROM "snowblowers" 
+  Rendered snowblowers/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:20 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Processing by AttachementsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1
+  [1m[36mAttachement Load (0.0ms)[0m  [1mSELECT "attachements".* FROM "attachements" [0m
+  Rendered attachements/index.html.erb within layouts/application (61.7ms)
+Completed 200 OK in 162ms (Views: 159.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:21 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:22 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mSnowblower Load (0.2ms)[0m  [1mSELECT "snowblowers".* FROM "snowblowers" [0m
+  Rendered snowblowers/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /attachements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /snowblowers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /snowblowers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:44:23 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mSnowblower Load (0.2ms)[0m  [1mSELECT "snowblowers".* FROM "snowblowers" [0m
+  Rendered snowblowers/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /attachements.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /tractors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachements" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Processing by AttachementsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1[0m
+  [1m[35mAttachement Load (0.3ms)[0m  SELECT "attachements".* FROM "attachements" 
+  Rendered attachements/index.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 141ms (Views: 138.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:52 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /acceuil.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:53 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/snowblowers" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Processing by SnowblowersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mSnowblower Load (0.1ms)[0m  SELECT "snowblowers".* FROM "snowblowers" 
+  Rendered snowblowers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /acceuil.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /snowblowers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-11 16:56:55 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)

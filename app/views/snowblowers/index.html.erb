@@ -1,0 +1,56 @@
+<h1>Liste des Souffleurs</h1>
+
+
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :model_or_serial_or_stock_cont, "Recherche Modele ou #Serie" %>
+		    
+		  
+		    <%= f.text_field :model_or_serial_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+
+<%= link_to 'Nouveau Souffleur', new_snowblower_path %>
+<br />
+<%= link_to 'Retour a l\'accueil', acceuil_index_path %>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Model</th>
+    <th>Color</th>
+    <th>Stock</th>
+    <th>Serial</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th>Bonus</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @snowblowers.each do |snowblower| %>
+  <tr>
+    <td><%= snowblower.brand %></td>
+    <td><%= snowblower.model %></td>
+    <td><%= snowblower.color %></td>
+    <td><%= snowblower.stock %></td>
+    <td><%= snowblower.serial %></td>
+    <td><%= snowblower.description %></td>
+    <td><%= snowblower.price %></td>
+    <td><%= snowblower.bonus %></td>
+    <td><%= link_to 'Show', snowblower %></td>
+    <td><%= link_to 'Edit', edit_snowblower_path(snowblower) %></td>
+    <td><%= link_to 'Destroy', snowblower, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

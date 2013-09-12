@@ -8,7 +8,7 @@
 
 
 # Remplissage de la table Status
-["Stock", "Vendu", "Pret", "Demo"].each do |x|
+["Stock", "Stock LAP", "Stock CKL", "Vendu", "Pret", "Demo"].each do |x|
   Status.find_or_create_by_stat(x)
 end
 

@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Brand:</b>
+  <%= @snowblower.brand %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @snowblower.model %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @snowblower.color %>
+</p>
+
+<p>
+  <b>Stock:</b>
+  <%= @snowblower.stock %>
+</p>
+
+<p>
+  <b>Serial:</b>
+  <%= @snowblower.serial %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @snowblower.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @snowblower.price %>
+</p>
+
+<p>
+  <b>Bonus:</b>
+  <%= @snowblower.bonus %>
+</p>
+
+
+<%= link_to 'Edit', edit_snowblower_path(@snowblower) %> |
+<%= link_to 'Back', snowblowers_path %>

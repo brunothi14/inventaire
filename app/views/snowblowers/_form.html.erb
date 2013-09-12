@@ -1,0 +1,49 @@
+<%= form_for(@snowblower) do |f| %>
+  <% if @snowblower.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@snowblower.errors.count, "error") %> prohibited this snowblower from being saved:</h2>
+
+      <ul>
+      <% @snowblower.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :brand %><br />
+    <%= f.text_field :brand %>
+  </div>
+  <div class="field">
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </div>
+  <div class="field">
+    <%= f.label :color %><br />
+    <%= f.text_field :color %>
+  </div>
+  <div class="field">
+    <%= f.label :stock %><br />
+    <%= f.text_field :stock %>
+  </div>
+  <div class="field">
+    <%= f.label :serial %><br />
+    <%= f.text_field :serial %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :bonus %><br />
+    <%= f.text_field :bonus %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  brand: MyString
+  model: MyString
+  color: MyString
+  stock: MyString
+  serial: MyString
+  description: MyText
+  pricec: 9.99
+  bonus: 9.99
+
+two:
+  brand: MyString
+  model: MyString
+  color: MyString
+  stock: MyString
+  serial: MyString
+  description: MyText
+  pricec: 9.99
+  bonus: 9.99
