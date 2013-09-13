@@ -1,6 +1,8 @@
-<h1>Listing rental_fleets</h1>
-
-<table>
+<h1>Rental Fleet Laporte</h1>
+<br />
+<%= link_to 'New Rental fleet', new_rental_fleet_path %>
+<br />
+<table class="table">
   <tr>
     <th>Modele</th>
     <th># Serie</th>
@@ -25,13 +27,13 @@
     <td><%= rental_fleet.salesman %></td>
     <td><%= rental_fleet.datereturn %></td>
     <td><%= rental_fleet.hours %></td>
-    <td><%= link_to 'Show', rental_fleet %></td>
-    <td><%= link_to 'Edit', edit_rental_fleet_path(rental_fleet) %></td>
-    <td><%= link_to 'Destroy', rental_fleet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Details', rental_fleet %></td>
+    <td><%= link_to 'Modifier', edit_rental_fleet_path(rental_fleet) %></td>
+    <td><%= link_to 'Supprimer', rental_fleet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Rental fleet', new_rental_fleet_path %>
+
