@@ -48,8 +48,8 @@
     <td><%= snowblower.description %></td>
     <td><%= snowblower.fielddate %></td>
     <td><%= snowblower.status.stat %></td>    
-    <td><%= snowblower.price %></td>
-    <td><%= snowblower.bonus %></td>
+    <td><%= number_to_currency(snowblower.price) %></td>
+    <td><%= number_to_currency(snowblower.bonus) %></td>
     <td><%= link_to 'Details', snowblower %></td>
     <td><%= link_to 'Modifier', edit_snowblower_path(snowblower) %></td>
     <td><%= link_to 'Supprimer', snowblower, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -32,15 +32,9 @@
   <b>Status:</b>
   <%= @tractor.status.stat %>
 </p>
-
-<p>
-  <b>Prix:</b>
-  <%= @tractor.price %>
-</p>
-
 <p>
   <b>Bonus:</b>
-  <%= @tractor.bonus %>
+  <%= number_to_currency(@tractor.bonus) %>
 </p>
 
 <p>

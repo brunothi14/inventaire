@@ -50,8 +50,8 @@
     <td><%= attachement.marque %></td>
     <td><%= attachement.modele %></td>
     <td><%= attachement.description %></td>
-    <td><%= attachement.prix %></td>
-    <td><%= attachement.bonus %></td>
+    <td><%= number_to_currency(attachement.prix) %></td>
+    <td><%= number_to_currency(attachement.bonus) %></td>
     <td><%= link_to 'Details', attachement %></td>
     <%- if can? :update, Attachement %>
     <td><%= link_to 'Modifier', edit_attachement_path(attachement) %></td>

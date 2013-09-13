@@ -82842,3 +82842,194 @@ Served asset /tractors.js - 304 Not Modified (0ms)
 
 Started GET "/assets/rental_fleets.js?body=1" for 127.0.0.1 at 2013-09-13 15:07:23 -0400
 Served asset /rental_fleets.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAttachements (20130610064042)
+Migrating to CreateEquipements (20130610124314)
+Migrating to DeviseCreateUsers (20130614211252)
+Migrating to CreateBrands (20130904213418)
+Migrating to CreateFamilies (20130904213455)
+Migrating to CreateTires (20130904213513)
+Migrating to CreateTractors (20130905145611)
+Migrating to CreateStatuses (20130905182646)
+Migrating to CreateLocations (20130906031552)
+Migrating to CreateRoles (20130906170718)
+Migrating to UsersHaveAndBelongToManyRoles (20130906170936)
+Migrating to CreateSnowblowers (20130911201945)
+Migrating to CreateRentalFleets (20130912183909)
+Migrating to CreateRentalFleet2s (20130912183953)
+Migrating to AddFielddateToSnowblower (20130912210036)
+Migrating to RemovePriceFromTractor (20130913210027)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_tractors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "hours" integer, "invoice" integer, "fielddate" date, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "status_id" integer, "location_id" integer, "price" decimal(8,2), "bonus" decimal, "stock" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "tractors"[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (3, 'kx1', '1234', 12, 99999, '2013-09-01', 'tetetetet', '2013-09-06 00:57:39.221308', '2013-09-06 00:57:39.221308', 1, 1, NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (4, 'u35', '890', 34, 6666, '2013-09-02', '', '2013-09-06 01:04:29.319137', '2013-09-06 01:04:29.319137', 1, 2, NULL, NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (5, '', '', NULL, NULL, '2013-09-06', '', '2013-09-06 03:25:33.146075', '2013-09-06 19:27:06.958793', 1, 1, NULL, NULL, '')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (6, '', '', NULL, NULL, '2013-09-06', '', '2013-09-06 03:26:34.318684', '2013-09-06 03:26:34.318684', 1, 1, NULL, NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (7, '12123123', '1231231', NULL, 45456456, '2013-08-06', '345345345', '2013-09-06 19:22:44.320745', '2013-09-06 19:22:44.320745', 1, 1, 34534, 3453, '123123')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","price","bonus","stock") VALUES (8, 'l6060', '123', 10, 123123123, '2012-09-12', 'vieux tracteur', '2013-09-13 18:20:46.317546', '2013-09-13 18:20:46.317546', 1, 1, 20000, 200, '1234')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "tractors"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "tractors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "hours" integer, "invoice" integer, "fielddate" date, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "status_id" integer, "location_id" integer, "bonus" decimal, "stock" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_tractors"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (3, 'kx1', '1234', 12, 99999, '2013-09-01', 'tetetetet', '2013-09-06 00:57:39.221308', '2013-09-06 00:57:39.221308', 1, 1, NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (4, 'u35', '890', 34, 6666, '2013-09-02', '', '2013-09-06 01:04:29.319137', '2013-09-06 01:04:29.319137', 1, 2, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (5, '', '', NULL, NULL, '2013-09-06', '', '2013-09-06 03:25:33.146075', '2013-09-06 19:27:06.958793', 1, 1, NULL, '')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (6, '', '', NULL, NULL, '2013-09-06', '', '2013-09-06 03:26:34.318684', '2013-09-06 03:26:34.318684', 1, 1, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (7, '12123123', '1231231', NULL, 45456456, '2013-08-06', '345345345', '2013-09-06 19:22:44.320745', '2013-09-06 19:22:44.320745', 1, 1, 3453, '123123')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "tractors" ("id","model","serial","hours","invoice","fielddate","description","created_at","updated_at","status_id","location_id","bonus","stock") VALUES (8, 'l6060', '123', 10, 123123123, '2012-09-12', 'vieux tracteur', '2013-09-13 18:20:46.317546', '2013-09-13 18:20:46.317546', 1, 1, 200, '1234')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_tractors"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130913210027')
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/tractors" for 127.0.0.1 at 2013-09-13 17:05:19 -0400
+Processing by TractorsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles"."id" = "roles_users"."role_id" WHERE "roles_users"."user_id" = 1 AND "roles"."name" = 'SuperAdmin' LIMIT 1[0m
+  [1m[35mTractor Load (0.2ms)[0m  SELECT "tractors".* FROM "tractors" 
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 1 LIMIT 1
+  Rendered tractors/index.html.erb within layouts/application (105.4ms)
+Completed 200 OK in 223ms (Views: 159.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:19 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleets.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /rental_fleets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleet2s.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /rental_fleet2s.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleet2s.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /rental_fleet2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleets.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /rental_fleets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)

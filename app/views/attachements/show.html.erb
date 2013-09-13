@@ -32,12 +32,12 @@
 
 <p>
   <b>Prix:</b>
-  <%= @attachement.prix %>
+  <%= number_to_currency(@attachement.prix) %>
 </p>
 
 <p>
   <b>Bonus:</b>
-  <%= @attachement.bonus %>
+  <%= number_to_currency(@attachement.bonus) %>
 </p>
 
 
