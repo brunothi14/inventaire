@@ -38,7 +38,8 @@
   </tr>
 
 <% @tractors.each do |tractor| %>
-  <tr>
+
+  <tr class="<%= set_background_kfd(tractor.remainingdays) %>">
   	<td><%= tractor.location.name %></td>
   	<td><%= tractor.model %></td>
     <td><%= tractor.serial %></td>
@@ -47,8 +48,7 @@
     <td><%= tractor.status.stat %></td>
     <td><%= tractor.price %></td>
     <td><%= tractor.bonus %></td>
-    <td><%= ((tractor.fielddate - Date.today).to_i + 365) > 0 ? ((tractor.fielddate - Date.today).to_i + 365) : 0 %></td>
-    
+    <td><%= tractor.remainingdays %></td>
     
     <td><%= link_to 'Details', tractor %></td>
     <% if can? :update, Tractor %>

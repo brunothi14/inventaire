@@ -1,4 +1,18 @@
 @import "bootstrap";
-body { padding-top: 60px; }
+body { padding-top: 70px; }
+
+tr.none{
+}
+
+tr.backgroundBlue{
+  background-color: blue;
+}
+tr.backgroundRed{
+  /*background-color: red;*/
+  background: rgb(255, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(255, 25, 25, .7);
+}
+
 
 @import "bootstrap-responsive";

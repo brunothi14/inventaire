@@ -11,6 +11,7 @@ gem 'cancan'
 gem 'ransack'
 gem 'devise'
 gem 'mysql2'
+gem 'axlsx'
 #gem 'activerecord-mysql2-adapter'
 # Gems used only for assets and not required
 # in production environments by default.

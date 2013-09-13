@@ -1,6 +1,6 @@
 class Attachement < ActiveRecord::Base
   attr_accessible :bonus, :description, :emplacement, :marque, :modele, :prix, :stock, :fonction
-  
+  belongs_to :tractor
  
   def self.to_csv(options = {})
   CSV.generate(options) do |csv|
