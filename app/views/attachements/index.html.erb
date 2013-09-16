@@ -28,7 +28,7 @@
 <br />
 
 <table class="table">
-  <tr>
+  <thead><tr>
     <th>Fonction</th>
     <th>Emplacement</th>
     <th>Stock</th>
@@ -40,8 +40,9 @@
     <th></th>
     <th></th>
     <th></th>
-  </tr>
+  </tr></thead>
 
+<tbody>
 <% @attachements.each do |attachement| %>
   <tr>
     <td><%= attachement.fonction %></td>
@@ -61,4 +62,5 @@
     <%- end %>
   </tr>
 <% end %>
+</tbody>
 </table>
