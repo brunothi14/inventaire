@@ -13,20 +13,18 @@
 <table>
 	<tr>
 		<td>
+  <div class="field">
+			    <%= f.label :fonction %><br />
+			    <%= f.text_field :fonction %>
+	</div>
+  </td>
+		<td>
 			<div class="field">
     			<%= f.label :emplacement %><br />
     			<%= f.text_field :emplacement %>
   			</div>
   		</td>
-  		<td>
-			  <div class="field">
-			    <%= f.label :stock %><br />
-			    <%= f.text_field :stock %>
-			  </div>
-		</td>
-  </tr>
-  <tr>
-  	<td>
+  			<td>
   <div class="field">
     <%= f.label :marque %><br />
     <%= f.text_field :marque %>
@@ -38,6 +36,21 @@
     <%= f.text_field :modele %>
   </div>
   </td>
+  		<td>
+			  <div class="field">
+			    <%= f.label :stock %><br />
+			    <%= f.text_field :stock %>
+			  </div>
+		</td>
+		<td>
+			  <div class="field">
+			    <%= f.label "# de Serie" %><br />
+			    <%= f.text_field :stock %>
+			  </div>
+		</td>
+  </tr>
+  <tr>
+  
   </tr>
   <tr>
   	<td>
@@ -60,12 +73,7 @@
     <%= f.text_field :bonus %>
   </div>
   </td>
-  <td>
-  <div class="field">
-			    <%= f.label :fonction %><br />
-			    <%= f.text_field :fonction %>
-	</div>
-  </td>
+  
   </tr>
  </table> 
   

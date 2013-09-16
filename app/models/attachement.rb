@@ -1,14 +1,17 @@
 class Attachement < ActiveRecord::Base
-  attr_accessible :bonus, :description, :emplacement, :marque, :modele, :prix, :stock, :fonction
+  attr_accessible :fonction, :emplacement, :stock, :marque, :modele, :description, :prix, :bonus, :serial, :fielddate 
   belongs_to :tractor
  
   def self.to_csv(options = {})
-  CSV.generate(options) do |csv|
-    csv << column_names
-    all.each do |attachment|
-      csv << attachement.attributes.values_at(*column_names)
+    CSV.generate(options) do |csv|
+      csv << column_names
+      all.each do |attachment|
+        csv << attachement.attributes.values_at(*column_names)
+      end
     end
   end
-end
  
+  def age
+    return (Date.today - self.fielddate).to_i
+  end
 end

@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "marque"
     t.string   "modele"
     t.string   "description"
-    t.decimal  "prix"
-    t.decimal  "bonus"
+    t.decimal  "prix",       :default => 0
+    t.decimal  "bonus",       :default => 0
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.string   "serial"
@@ -38,8 +38,8 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "stock"
     t.string   "description"
     t.string   "modele"
-    t.decimal  "prix"
-    t.decimal  "bonus"
+    t.decimal  "prix",       :default => 0
+    t.decimal  "bonus",       :default => 0
     t.date     "arrivee"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
@@ -64,7 +64,7 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "location"
     t.date     "dateout"
     t.string   "salesman"
-    t.integer  "hours"
+    t.integer  "hours",       :default => 0
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
     t.integer  "bonus",       :default => 0
@@ -78,7 +78,7 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "location"
     t.date     "dateout"
     t.string   "salesman"
-    t.integer  "hours"
+    t.integer  "hours",       :default => 0
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
     t.integer  "bonus",       :default => 0
@@ -103,8 +103,8 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "stock"
     t.string   "serial"
     t.text     "description"
-    t.decimal  "price",       :precision => 8, :scale => 2
-    t.decimal  "bonus",       :precision => 8, :scale => 2
+    t.decimal  "price",       :precision => 8, :scale => 2, :default => 0
+    t.decimal  "bonus",       :precision => 8, :scale => 2, :default => 0
     t.integer  "location_id"
     t.integer  "status_id"
     t.datetime "created_at",                                :null => false
@@ -128,7 +128,7 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
   create_table "tractors", :force => true do |t|
     t.string   "model"
     t.string   "serial"
-    t.integer  "hours"
+    t.integer  "hours",       :default => 0
     t.integer  "invoice"
     t.date     "fielddate"
     t.text     "description"
@@ -136,7 +136,7 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.datetime "updated_at",  :null => false
     t.integer  "status_id"
     t.integer  "location_id"
-    t.decimal  "bonus"
+    t.decimal  "bonus",       :default => 0
     t.string   "stock"
   end
 

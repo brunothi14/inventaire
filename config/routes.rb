@@ -1,4 +1,13 @@
 Inventaire::Application.routes.draw do
+  resources :used_accessories
+
+
+  resources :used_others
+
+
+  resources :useds
+
+
   resources :rental_fleet2s
 
 
