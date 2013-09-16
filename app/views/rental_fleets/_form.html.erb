@@ -36,12 +36,16 @@
     <%= f.text_field :salesman %>
   </div>
   <div class="field">
-    <%= f.label :datereturn %><br />
-    <%= f.date_select :datereturn %>
-  </div>
-  <div class="field">
     <%= f.label :hours %><br />
     <%= f.number_field :hours %>
+  </div>
+  <div class="field">
+    <%= f.label :bonus %><br />
+    <%= f.number_field :bonus %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
   </div>
   <div class="actions">
     <%= f.submit %>
