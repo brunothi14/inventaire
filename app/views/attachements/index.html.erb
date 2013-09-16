@@ -36,7 +36,7 @@
     <th><%= sort_link @search, :modele, "Modele" %></th>
     <th><%= sort_link @search, :stock, "#Stock" %></th>
     <th><%= sort_link @search, :serial, "#Serie" %></th>
-    <th><%= sort_link @search, :age, "Age" %></th>
+    <th><% sort_link @search, :age, "Age" %></th>
     <th><%= sort_link @search, :description, "Description" %></th>
     <th><%= sort_link @search, :prix, "Prix" %></th>
     <th><%= sort_link @search, :bonus, "Bonus" %></th>
@@ -54,7 +54,7 @@
     <td><%= attachement.modele %></td>
     <td><%= attachement.stock %></td>
     <td><%= attachement.serial %></td>
-    <td><%= attachement.age %></td>
+    <td><% attachement.age %></td>
     <td><%= attachement.description %></td>
     <td><%= number_to_currency(attachement.prix) %></td>
     <td><%= number_to_currency(attachement.bonus) %></td>

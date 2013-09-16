@@ -12,6 +12,6 @@ class Attachement < ActiveRecord::Base
   end
  
   def age
-    (Date.today.days - self.fielddate.days).to_i
+    return (Date.today - self.fielddate).to_i
   end
 end
