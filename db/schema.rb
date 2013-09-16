@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20130916142408) do
+=======
+ActiveRecord::Schema.define(:version => 20130915230510) do
+>>>>>>> 78f92348753a55a20af95697310f07ac9c434c92
 
   create_table "attachements", :force => true do |t|
     t.string   "fonction"
@@ -64,10 +68,11 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "location"
     t.date     "dateout"
     t.string   "salesman"
-    t.date     "datereturn"
     t.integer  "hours"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.integer  "bonus",       :default => 0
+    t.text     "description"
   end
 
   create_table "rental_fleets", :force => true do |t|
@@ -77,10 +82,11 @@ ActiveRecord::Schema.define(:version => 20130916142408) do
     t.string   "location"
     t.date     "dateout"
     t.string   "salesman"
-    t.date     "datereturn"
     t.integer  "hours"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.integer  "bonus",       :default => 0
+    t.text     "description"
   end
 
   create_table "roles", :force => true do |t|

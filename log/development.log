@@ -83033,6 +83033,7 @@ Served asset /tractors.js - 304 Not Modified (0ms)
 
 Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-13 17:05:20 -0400
 Served asset /snowblowers.js - 304 Not Modified (0ms)
+<<<<<<< HEAD
 
 
 Started GET "/tractors" for 127.0.0.1 at 2013-09-13 17:07:40 -0400
@@ -85286,6 +85287,290 @@ Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-16 13:35:38 -0
 Served asset /tractors.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
   [1m[36m (1.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+=======
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-15 19:00:22 -0400
+Processing by AcceuilController#index as HTML
+  Rendered acceuil/index.html.erb within layouts/application (11.0ms)
+Compiled bootstrap_and_overrides.css  (1002ms)  (pid 22770)
+Compiled rental_fleet2s.css  (0ms)  (pid 22770)
+Compiled rental_fleets.css  (0ms)  (pid 22770)
+Compiled snowblowers.css  (1ms)  (pid 22770)
+Compiled application.css  (19ms)  (pid 22770)
+Compiled rental_fleet2s.js  (82ms)  (pid 22770)
+Compiled rental_fleets.js  (0ms)  (pid 22770)
+Compiled snowblowers.js  (0ms)  (pid 22770)
+Compiled application.js  (99ms)  (pid 22770)
+Completed 200 OK in 1409ms (Views: 1408.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /acceuil.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap_and_overrides.css - 200 OK (13ms)
+
+
+Started GET "/assets/rental_fleet2s.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /rental_fleet2s.css - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /attachements.css - 200 OK (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /equipements.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /snowblowers.css - 200 OK (1ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /tractors.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/rental_fleets.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /rental_fleets.css - 200 OK (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-transition.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-alert.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-button.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-carousel.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-popover.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /bootstrap.js - 200 OK (17ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /acceuil.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /attachements.js - 200 OK (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /equipements.js - 200 OK (0ms)
+
+
+Started GET "/assets/rental_fleet2s.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /rental_fleet2s.js - 200 OK (1ms)
+
+
+Started GET "/assets/rental_fleets.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /rental_fleets.js - 200 OK (1ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /snowblowers.js - 200 OK (1ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:24 -0400
+Served asset /tractors.js - 200 OK (1ms)
+
+
+Started GET "/rental_fleets" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Processing by RentalFleetsController#index as HTML
+  [1m[36mRentalFleet Load (0.2ms)[0m  [1mSELECT "rental_fleets".* FROM "rental_fleets" [0m
+  Rendered rental_fleets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 128ms (Views: 48.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/rental_fleet2s.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /rental_fleet2s.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /acceuil.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rental_fleets.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /rental_fleets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleet2s.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /rental_fleet2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleets.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /rental_fleets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-15 19:00:26 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+>>>>>>> 78f92348753a55a20af95697310f07ac9c434c92
 Migrating to CreateAttachements (20130610064042)
 Migrating to CreateEquipements (20130610124314)
 Migrating to DeviseCreateUsers (20130614211252)
@@ -85301,6 +85586,7 @@ Migrating to CreateSnowblowers (20130911201945)
 Migrating to CreateRentalFleets (20130912183909)
 Migrating to CreateRentalFleet2s (20130912183953)
 Migrating to AddFielddateToSnowblower (20130912210036)
+<<<<<<< HEAD
 Migrating to AddSerialToAttachements (20130916142408)
   [1m[35m (0.1ms)[0m  select sqlite_version(*)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
@@ -85446,3 +85732,27 @@ Served asset /snowblowers.js - 304 Not Modified (0ms)
 Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-16 13:46:16 -0400
 Served asset /tractors.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+=======
+Migrating to ModifyRentalFleets (20130915230510)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_rental_fleets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "client" varchar(255), "location" varchar(255), "dateout" date, "salesman" varchar(255), "datereturn" date, "hours" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "rental_fleets"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "rental_fleets"
+  [1m[36m (0.0ms)[0m  [1mCREATE TABLE "rental_fleets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "client" varchar(255), "location" varchar(255), "dateout" date, "salesman" varchar(255), "hours" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_rental_fleets"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_rental_fleets"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_rental_fleet2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "client" varchar(255), "location" varchar(255), "dateout" date, "salesman" varchar(255), "datereturn" date, "hours" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "rental_fleet2s"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "rental_fleet2s"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "rental_fleet2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar(255), "serial" varchar(255), "client" varchar(255), "location" varchar(255), "dateout" date, "salesman" varchar(255), "hours" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_rental_fleet2s"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_rental_fleet2s"[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "rental_fleets" ADD "bonus" integer DEFAULT 0
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "rental_fleet2s" ADD "bonus" integer DEFAULT 0[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "rental_fleets" ADD "description" text
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "rental_fleet2s" ADD "description" text[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130915230510')
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+>>>>>>> 78f92348753a55a20af95697310f07ac9c434c92
