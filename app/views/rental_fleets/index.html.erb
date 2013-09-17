@@ -1,6 +1,10 @@
 <h1>Rental Fleet Laporte</h1>
 <br />
-<%= link_to 'Nouvelle Unite', new_rental_fleet_path %>
+
+<%- if can? :create, Rental_fleet %>
+	<%= link_to 'Nouvelle Unite', new_rental_fleet_path %>
+<% end %>
+
 <br />
 <table class="table">
   <tr>
@@ -28,8 +32,12 @@
     <td><%= rental_fleet.hours %></td>
     <td><%= rental_fleet.bonus %></td>
     <td><%= link_to 'Details', rental_fleet %></td>
-    <td><%= link_to 'Modifier', edit_rental_fleet_path(rental_fleet) %></td>
-    <td><%= link_to 'Supprimer', rental_fleet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <%- if can? :update, Rental_fleet %>
+    	<td><%= link_to 'Modifier', edit_rental_fleet_path(rental_fleet) %></td>
+    <% end %>
+    <%- if can? :destroy, Rental_fleet %>
+    	<td><%= link_to 'Supprimer', rental_fleet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+ 	<% end %>
   </tr>
 <% end %>
 </table>

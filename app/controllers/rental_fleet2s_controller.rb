@@ -1,8 +1,21 @@
 class RentalFleet2sController < ApplicationController
   # GET /rental_fleet2s
   # GET /rental_fleet2s.json
+  
+  
+  # Render mobile or desktop depending on User-Agent for these actions.
+  before_filter :check_for_mobile, :only => [:new, :edit]
+
+  # Always render mobile versions for these, regardless of User-Agent.
+  before_filter :prepare_for_mobile, :only => :show
+  
+  before_filter :authenticate_user!
+  
+  
+  
   def index
-    @rental_fleet2s = RentalFleet2.all
+    @search = RentalFleet2.search(params[:q])
+    @rental_fleet2s = @search.result
 
     respond_to do |format|
       format.html # index.html.erb
