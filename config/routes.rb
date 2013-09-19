@@ -1,4 +1,11 @@
 Inventaire::Application.routes.draw do
+  
+  get "acceuil/index"
+
+  root :to => "acceuil#index"
+  
+  
+
   resources :used_accessories
 
 
@@ -27,9 +34,7 @@ devise_for :users
   resources :attachements
 
 
-  get "acceuil/index"
-
-  root :to => "acceuil#index"
+  
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
