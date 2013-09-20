@@ -1,0 +1,45 @@
+<h1>Listing used_others</h1>
+
+<table>
+  <tr>
+    <th>Location</th>
+    <th>Brand</th>
+    <th>Model</th>
+    <th>Year</th>
+    <th>Serial</th>
+    <th>Stock</th>
+    <th>Hours</th>
+    <th>Fielddate</th>
+    <th>Lsp</th>
+    <th>Price</th>
+    <th>Bonus</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @used_others.each do |used_other| %>
+  <tr>
+    <td><%= used_other.location_id %></td>
+    <td><%= used_other.brand %></td>
+    <td><%= used_other.model %></td>
+    <td><%= used_other.year %></td>
+    <td><%= used_other.serial %></td>
+    <td><%= used_other.stock %></td>
+    <td><%= used_other.hours %></td>
+    <td><%= used_other.fielddate %></td>
+    <td><%= used_other.lsp %></td>
+    <td><%= used_other.price %></td>
+    <td><%= used_other.bonus %></td>
+    <td><%= used_other.description %></td>
+    <td><%= link_to 'Show', used_other %></td>
+    <td><%= link_to 'Edit', edit_used_other_path(used_other) %></td>
+    <td><%= link_to 'Destroy', used_other, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Used other', new_used_other_path %>

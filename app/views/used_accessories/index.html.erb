@@ -1,0 +1,43 @@
+<h1>Listing used_accessories</h1>
+
+<table>
+  <tr>
+    <th>Location</th>
+    <th>Brand</th>
+    <th>Model</th>
+    <th>Year</th>
+    <th>Serial</th>
+    <th>Stock</th>
+    <th>Fielddate</th>
+    <th>Lsp</th>
+    <th>Price</th>
+    <th>Bonus</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @used_accessories.each do |used_accessory| %>
+  <tr>
+    <td><%= used_accessory.location_id %></td>
+    <td><%= used_accessory.brand %></td>
+    <td><%= used_accessory.model %></td>
+    <td><%= used_accessory.year %></td>
+    <td><%= used_accessory.serial %></td>
+    <td><%= used_accessory.stock %></td>
+    <td><%= used_accessory.fielddate %></td>
+    <td><%= used_accessory.lsp %></td>
+    <td><%= used_accessory.price %></td>
+    <td><%= used_accessory.bonus %></td>
+    <td><%= used_accessory.description %></td>
+    <td><%= link_to 'Show', used_accessory %></td>
+    <td><%= link_to 'Edit', edit_used_accessory_path(used_accessory) %></td>
+    <td><%= link_to 'Destroy', used_accessory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Used accessory', new_used_accessory_path %>

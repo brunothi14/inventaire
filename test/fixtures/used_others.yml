@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  location_id: 1
+  brand: MyString
+  model: MyString
+  year: 1
+  serial: MyString
+  stock: MyString
+  hours: 1
+  fielddate: 2013-09-16
+  lsp: 9.99
+  price: 9.99
+  bonus: 9.99
+  description: MyText
+
+two:
+  location_id: 1
+  brand: MyString
+  model: MyString
+  year: 1
+  serial: MyString
+  stock: MyString
+  hours: 1
+  fielddate: 2013-09-16
+  lsp: 9.99
+  price: 9.99
+  bonus: 9.99
+  description: MyText
