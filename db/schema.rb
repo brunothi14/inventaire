@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130919205746) do
+ActiveRecord::Schema.define(:version => 20130920192435) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -53,10 +53,10 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.string   "marque"
     t.string   "modele"
     t.string   "description"
-    t.decimal  "prix"
-    t.decimal  "bonus"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.decimal  "prix",        :precision => 10, :scale => 0
+    t.decimal  "bonus",       :precision => 10, :scale => 0
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
     t.string   "serial"
     t.date     "fielddate"
   end
@@ -72,11 +72,11 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.string   "stock"
     t.string   "description"
     t.string   "modele"
-    t.decimal  "prix"
-    t.decimal  "bonus"
+    t.decimal  "prix",        :precision => 10, :scale => 0
+    t.decimal  "bonus",       :precision => 10, :scale => 0
     t.date     "arrivee"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
   end
 
   create_table "families", :force => true do |t|
@@ -125,7 +125,7 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "roles_users", :id => false, :force => true do |t|
+  create_table "roles_users", :force => true do |t|
     t.integer "role_id"
     t.integer "user_id"
   end
@@ -166,11 +166,11 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.integer  "invoice"
     t.date     "fielddate"
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
     t.integer  "status_id"
     t.integer  "location_id"
-    t.decimal  "bonus"
+    t.decimal  "bonus",       :precision => 10, :scale => 0
     t.string   "stock"
   end
 
@@ -182,12 +182,13 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.string   "serial"
     t.string   "stock"
     t.date     "fielddate"
-    t.decimal  "lsp"
-    t.decimal  "price"
-    t.decimal  "bonus"
+    t.decimal  "cost",        :precision => 10, :scale => 0
+    t.decimal  "lsp",         :precision => 10, :scale => 0
+    t.decimal  "price",       :precision => 10, :scale => 0
+    t.decimal  "bonus",       :precision => 10, :scale => 0
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
   end
 
   create_table "used_others", :force => true do |t|
@@ -199,12 +200,14 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.string   "stock"
     t.integer  "hours"
     t.date     "fielddate"
-    t.decimal  "lsp"
-    t.decimal  "price"
-    t.decimal  "bonus"
+    t.decimal  "cost",        :precision => 10, :scale => 0
+    t.decimal  "lsp",         :precision => 10, :scale => 0
+    t.decimal  "price",       :precision => 10, :scale => 0
+    t.decimal  "bonus",       :precision => 10, :scale => 0
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+    t.integer  "family_id"
   end
 
   create_table "useds", :force => true do |t|
@@ -215,12 +218,13 @@ ActiveRecord::Schema.define(:version => 20130919205746) do
     t.string   "stock"
     t.integer  "hours"
     t.date     "fielddate"
-    t.decimal  "lsp"
-    t.decimal  "price"
-    t.decimal  "bonus"
+    t.decimal  "cost",        :precision => 10, :scale => 0
+    t.decimal  "lsp",         :precision => 10, :scale => 0
+    t.decimal  "price",       :precision => 10, :scale => 0
+    t.decimal  "bonus",       :precision => 10, :scale => 0
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
   end
 
   create_table "users", :force => true do |t|
