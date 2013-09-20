@@ -1,8 +1,18 @@
 class UsedOthersController < ApplicationController
   # GET /used_others
   # GET /used_others.json
+  
+  before_filter :check_for_mobile, :only => [:new, :edit]
+
+  # Always render mobile versions for these, regardless of User-Agent.
+  before_filter :prepare_for_mobile, :only => :show
+  
+  before_filter :authenticate_user!
+  
+  
   def index
-    @used_others = UsedOther.all
+    @search = UsedOther.search(params[:q])
+    @used_others = @search.result
 
     respond_to do |format|
       format.html # index.html.erb

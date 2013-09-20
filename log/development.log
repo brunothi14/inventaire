@@ -98377,3 +98377,210 @@ Load paths:
   Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (48.4ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/used_accessories" for 127.0.0.1 at 2013-09-20 17:09:23 -0400
+Processing by UsedAccessoriesController#index as HTML
+  [1m[36mUsedAccessory Load (0.5ms)[0m  [1mSELECT `used_accessories`.* FROM `used_accessories` [0m
+  Rendered used_accessories/index.html.erb within layouts/application (0.4ms)
+Compiled attachements.css  (1ms)  (pid 13086)
+Compiled bootstrap_and_overrides.css  (3103ms)  (pid 13086)
+Compiled equipements.css  (1ms)  (pid 13086)
+Compiled rental_fleet2s.css  (1ms)  (pid 13086)
+Compiled rental_fleets.css  (1ms)  (pid 13086)
+Compiled scaffolds.css  (10ms)  (pid 13086)
+Compiled snowblowers.css  (1ms)  (pid 13086)
+Compiled tractors.css  (1ms)  (pid 13086)
+Compiled used_accessories.css  (1ms)  (pid 13086)
+Compiled used_others.css  (1ms)  (pid 13086)
+Compiled useds.css  (1ms)  (pid 13086)
+Compiled application.css  (3265ms)  (pid 13086)
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 200 OK in 3423ms (Views: 3418.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /application.css - 200 OK (69ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rental_fleet2s.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /rental_fleet2s.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/attachements.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /attachements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /equipements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/acceuil.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /acceuil.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleets.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /rental_fleets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/used_accessories.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /used_accessories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /snowblowers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /tractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/used_others.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /used_others.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/useds.css?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /useds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachements.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /attachements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/acceuil.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /acceuil.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:26 -0400
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleet2s.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /rental_fleet2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/equipements.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /equipements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rental_fleets.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /rental_fleets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/snowblowers.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /snowblowers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tractors.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /tractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/used_others.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /used_others.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/used_accessories.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /used_accessories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Compiled jquery.js  (32ms)  (pid 13086)
+Compiled jquery_ujs.js  (0ms)  (pid 13086)
+Compiled bootstrap-transition.js  (0ms)  (pid 13086)
+Compiled bootstrap-affix.js  (0ms)  (pid 13086)
+Compiled bootstrap-alert.js  (0ms)  (pid 13086)
+Compiled bootstrap-button.js  (0ms)  (pid 13086)
+Compiled bootstrap-carousel.js  (0ms)  (pid 13086)
+Compiled bootstrap-collapse.js  (0ms)  (pid 13086)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 13086)
+Compiled bootstrap-modal.js  (1ms)  (pid 13086)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 13086)
+Compiled bootstrap-tab.js  (0ms)  (pid 13086)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 13086)
+Compiled bootstrap-popover.js  (0ms)  (pid 13086)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 13086)
+Compiled bootstrap.js  (97ms)  (pid 13086)
+Compiled acceuil.js  (91ms)  (pid 13086)
+Compiled attachements.js  (1ms)  (pid 13086)
+Compiled equipements.js  (0ms)  (pid 13086)
+Compiled rental_fleet2s.js  (0ms)  (pid 13086)
+Compiled rental_fleets.js  (0ms)  (pid 13086)
+Compiled snowblowers.js  (0ms)  (pid 13086)
+Compiled tractors.js  (0ms)  (pid 13086)
+Compiled used_accessories.js  (0ms)  (pid 13086)
+Compiled used_others.js  (0ms)  (pid 13086)
+Compiled useds.js  (0ms)  (pid 13086)
+Compiled application.js  (284ms)  (pid 13086)
+Served asset /application.js - 200 OK (290ms)
+
+
+Started GET "/assets/useds.js?body=1" for 127.0.0.1 at 2013-09-20 17:09:27 -0400
+Served asset /useds.js - 304 Not Modified (0ms)

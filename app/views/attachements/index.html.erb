@@ -54,7 +54,7 @@
     <td><%= attachement.modele %></td>
     <td><%= attachement.stock %></td>
     <td><%= attachement.serial %></td>
-    <td><%= (Date.today - attachement.fielddate).to_i %></td>
+    <td><%= Date.today.to_i - attachement.fielddate.to_i %></td>
     <td><%= attachement.description %></td>
     <td><%= number_to_currency(attachement.prix) %></td>
     <td><%= number_to_currency(attachement.bonus) %></td>

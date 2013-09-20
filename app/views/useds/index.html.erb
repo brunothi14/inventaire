@@ -1,18 +1,21 @@
-<h1>Listing useds</h1>
+<h1>Liste des Usages</h1>
 
-<table>
+<% if can? :create, Used %>
+	<%= link_to 'Nouveau Usage', new_used_path %>
+<% end %>
+<table class="table">
   <tr>
-    <th>Location</th>
-    <th>Model</th>
-    <th>Year</th>
-    <th>Serial</th>
-    <th>Stock</th>
-    <th>Hours</th>
-    <th>Fielddate</th>
-    <th>Lsp</th>
-    <th>Price</th>
-    <th>Bonus</th>
-    <th>Description</th>
+    <th><%= sort_link @search, :location, "Location" %></th>
+    <th><%= sort_link @search, :model, "Model" %></th>
+    <th><%= sort_link @search, :year, "Year" %></th>
+    <th><%= sort_link @search, :serial, "Serial" %></th>
+    <th><%= sort_link @search, :stock, "Stock" %></th>
+    <th><%= sort_link @search, :hours, "Hours" %></th>
+    <th><%= sort_link @search, :fielddate, "Fielddate" %></th>
+    <th><%= sort_link @search, :lsp, "Lsp" %></th>
+    <th><%= sort_link @search, :price, "Price" %></th>
+    <th><%= sort_link @search, :bonus, "Bonus" %></th>
+    <th><%= sort_link @search, :description, "Description" %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -20,24 +23,24 @@
 
 <% @useds.each do |used| %>
   <tr>
-    <td><%= used.location_id %></td>
+    <td><%= used.location.name %></td>
     <td><%= used.model %></td>
     <td><%= used.year %></td>
     <td><%= used.serial %></td>
     <td><%= used.stock %></td>
     <td><%= used.hours %></td>
     <td><%= used.fielddate %></td>
-    <td><%= used.lsp %></td>
-    <td><%= used.price %></td>
-    <td><%= used.bonus %></td>
+    <td><%= number_to_currency(used.lsp) %></td>
+    <td><%= number_to_currency(used.price) %></td>
+    <td><%= number_to_currency(used.bonus) %></td>
     <td><%= used.description %></td>
-    <td><%= link_to 'Show', used %></td>
-    <td><%= link_to 'Edit', edit_used_path(used) %></td>
-    <td><%= link_to 'Destroy', used, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Details', used %></td>
+    <% if can? :update, Used %>
+    	<td><%= link_to 'Modifier', edit_used_path(used) %></td>
+    <% end %>
+    <% if can? :destroy, Used %>
+    	<td><%= link_to 'Supprimer', used, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Used', new_used_path %>

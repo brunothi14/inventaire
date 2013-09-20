@@ -30,7 +30,7 @@
     <td><%= rental_fleet.dateout %></td>
     <td><%= rental_fleet.salesman %></td>
     <td><%= rental_fleet.hours %></td>
-    <td><%= rental_fleet.bonus %></td>
+    <td><%= number_to_currency(rental_fleet.bonus) %></td>
     <td><%= link_to 'Details', rental_fleet %></td>
     <%- if can? :update, RentalFleet %>
     	<td><%= link_to 'Modifier', edit_rental_fleet_path(rental_fleet) %></td>

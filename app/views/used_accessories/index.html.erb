@@ -1,18 +1,23 @@
-<h1>Listing used_accessories</h1>
+<h1>Liste des Accessoires Usages</h1>
 
-<table>
+<% if can? :create, UsedAccessory %>
+	<%= link_to 'New Used accessory', new_used_accessory_path %>
+<% end %>
+
+
+<table class="table">
   <tr>
-    <th>Location</th>
-    <th>Brand</th>
-    <th>Model</th>
-    <th>Year</th>
-    <th>Serial</th>
-    <th>Stock</th>
-    <th>Fielddate</th>
-    <th>Lsp</th>
-    <th>Price</th>
-    <th>Bonus</th>
-    <th>Description</th>
+    <th><%= sort_link @search, :location, "Location" %></th>
+    <th><%= sort_link @search, :brand, "Brand" %></th>
+    <th><%= sort_link @search, :model, "Model" %></th>
+    <th><%= sort_link @search, :year, "Year" %></th>
+    <th><%= sort_link @search, :serial, "Serial" %></th>
+    <th><%= sort_link @search, :stock, "Stock" %></th>
+    <th><%= sort_link @search, :fielddate, "Fielddate" %></th>
+    <th><%= sort_link @search, :lsp, "Lsp" %></th>
+    <th><%= sort_link @search, :price, "Price" %></th>
+    <th><%= sort_link @search, :bonus, "Bonus" %></th>
+    <th><%= sort_link @search, :description, "Description" %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -20,24 +25,28 @@
 
 <% @used_accessories.each do |used_accessory| %>
   <tr>
-    <td><%= used_accessory.location_id %></td>
+    <td><%= used_accessory.location.name %></td>
     <td><%= used_accessory.brand %></td>
     <td><%= used_accessory.model %></td>
     <td><%= used_accessory.year %></td>
     <td><%= used_accessory.serial %></td>
     <td><%= used_accessory.stock %></td>
     <td><%= used_accessory.fielddate %></td>
-    <td><%= used_accessory.lsp %></td>
-    <td><%= used_accessory.price %></td>
-    <td><%= used_accessory.bonus %></td>
+    <td><%= number_to_currency(used_accessory.lsp) %></td>
+    <td><%= number_to_currency(used_accessory.price) %></td>
+    <td><%= number_to_currency(used_accessory.bonus) %></td>
     <td><%= used_accessory.description %></td>
-    <td><%= link_to 'Show', used_accessory %></td>
-    <td><%= link_to 'Edit', edit_used_accessory_path(used_accessory) %></td>
-    <td><%= link_to 'Destroy', used_accessory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Details', used_accessory %></td>
+    <% if can? :update, UsedAccessory %>
+    	<td><%= link_to 'Modifier', edit_used_accessory_path(used_accessory) %></td>
+    <% end %>
+    <% if can? :destroy, UsedAccessory %>
+    	<td><%= link_to 'Supprimer', used_accessory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Used accessory', new_used_accessory_path %>
+

@@ -1,8 +1,19 @@
 class UsedAccessoriesController < ApplicationController
   # GET /used_accessories
   # GET /used_accessories.json
+  
+  
+  before_filter :check_for_mobile, :only => [:new, :edit]
+
+  # Always render mobile versions for these, regardless of User-Agent.
+  before_filter :prepare_for_mobile, :only => :show
+  
+  before_filter :authenticate_user!
+  
+  
   def index
-    @used_accessories = UsedAccessory.all
+    @search = UsedAccessory.search(params[:q])
+    @used_accessories = @search.result
 
     respond_to do |format|
       format.html # index.html.erb
