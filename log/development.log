@@ -98347,3 +98347,33 @@ Migrating to AddCostToUsedAccessories (20130920145912)
 Migrating to AddCostToUsedOthers (20130920145924)
 Migrating to AddFamilyIdToUsedOthers (20130920192435)
   [1m[35m (0.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/used_accessories" for 127.0.0.1 at 2013-09-20 16:26:31 -0400
+Processing by UsedAccessoriesController#index as HTML
+  [1m[35mUsedAccessory Load (1.4ms)[0m  SELECT `used_accessories`.* FROM `used_accessories` 
+  Rendered used_accessories/index.html.erb within layouts/application (0.8ms)
+Compiled acceuil.css  (1ms)  (pid 13086)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (File to import not found or unreadable: active_admin/mixins.
+Load paths:
+  Sass::Rails::Importer(/home/bruno/git/inventaire/app/assets/stylesheets/active_admin.css.scss)
+  /home/bruno/git/vendor/assets/stylesheets
+  (in /home/bruno/git/inventaire/app/assets/stylesheets/active_admin.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Inventaire</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!-- <%= image_tag "alaporte.png" %><%= image_tag "ckl.png" %> -->
+  app/assets/stylesheets/active_admin.css.scss:11
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1021848496840257947_70285966775080'
+  app/controllers/used_accessories_controller.rb:7:in `index'
+
+
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/bruno/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (48.4ms)
+Connecting to database specified by database.yml
