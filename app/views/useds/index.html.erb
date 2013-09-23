@@ -1,19 +1,35 @@
 <h1>Liste des Usages</h1>
 
+
+<div class="search">
+	<%= search_form_for @search do |f|%>
+		<div class="field">
+		    <%= f.label :model_or_serial_or_stock_cont, "Recherche Modele, #Serie, #Stock" %>
+		    
+		  
+		    <%= f.text_field :model_or_serial_or_stock_cont %>
+	  	</div>
+	  	<div class="actions">
+	    	<%= f.submit "Rechercher" %>
+	  	</div>
+	<% end %>
+</div>
+
+
 <% if can? :create, Used %>
 	<%= link_to 'Nouveau Usage', new_used_path %>
 <% end %>
 <table class="table">
   <tr>
-    <th><%= sort_link @search, :location, "Location" %></th>
-    <th><%= sort_link @search, :model, "Model" %></th>
-    <th><%= sort_link @search, :year, "Year" %></th>
-    <th><%= sort_link @search, :serial, "Serial" %></th>
-    <th><%= sort_link @search, :stock, "Stock" %></th>
-    <th><%= sort_link @search, :hours, "Hours" %></th>
-    <th><%= sort_link @search, :fielddate, "Fielddate" %></th>
-    <th><%= sort_link @search, :lsp, "Lsp" %></th>
-    <th><%= sort_link @search, :price, "Price" %></th>
+    <th><%= sort_link @search, :location, "Empl" %></th>
+    <th><%= sort_link @search, :model, "Modele" %></th>
+    <th><%= sort_link @search, :year, "Annee" %></th>
+    <th><%= sort_link @search, :serial, "#Serie" %></th>
+    <th><%= sort_link @search, :stock, "#Stock" %></th>
+    <th><%= sort_link @search, :hours, "Heures" %></th>
+    <th><%= sort_link @search, :fielddate, "Arrivee" %></th>
+    <th><%= sort_link @search, :lsp, "LSP" %></th>
+    <th><%= sort_link @search, :price, "Prix" %></th>
     <th><%= sort_link @search, :bonus, "Bonus" %></th>
     <th><%= sort_link @search, :description, "Description" %></th>
     <th></th>

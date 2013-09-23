@@ -59,12 +59,12 @@
     <td><%= number_to_currency(attachement.prix) %></td>
     <td><%= number_to_currency(attachement.bonus) %></td>
     <td><%= link_to 'Details', attachement %></td>
-    <%- if can? :update, Attachement %>
+    <% if can? :update, Attachement %>
     <td><%= link_to 'Modifier', edit_attachement_path(attachement) %></td>
-    <%- end %>
-    <%- if can? :destroy, Attachement %>
+    <% end %>
+    <% if can? :destroy, Attachement %>
     <td><%= link_to 'Supprimer', attachement, method: :delete, data: { confirm: 'Êtes-vous sure?' } %></td>
-    <%- end %>
+    <% end %>
   </tr>
 <% end %>
 </tbody>
