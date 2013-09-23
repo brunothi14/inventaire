@@ -9,7 +9,7 @@ class Ability
     elsif user.role? :product_admin
       can :manage, [Tractor, Attachement, Equipement, Souffleur]
     elsif user.role? :used_admin
-      can :manage, [Used, Used_Other, Used_Accessory]
+      can :manage, [Used, UsedOther, UsedAccessory]
     elsif user.role? :user
       can :read, :all
       # manage products, assets he owns
