@@ -11,10 +11,12 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :location_id %><br />
-    <%= f.number_field :location_id %>
+  
+<div class="field">
+    <%= f.label "Emplacement" %><br />
+    <%= f.collection_select(:location_id, Location.all, :id, :name ) %>    
   </div>
+  
   <div class="field">
     <%= f.label :model %><br />
     <%= f.text_field :model %>
