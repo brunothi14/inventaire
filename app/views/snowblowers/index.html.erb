@@ -15,7 +15,9 @@
 	<% end %>
 </div>
 
-<%= link_to 'Nouveau Souffleur', new_snowblower_path %>
+<% if can? :create, Snowblower %>
+	<%= link_to 'Nouveau Souffleur', new_snowblower_path %>
+<% end %>
 <br />
 <%= link_to 'Retour a l\'accueil', acceuil_index_path %>
 
@@ -51,8 +53,12 @@
     <td><%= number_to_currency(snowblower.price) %></td>
     <td><%= number_to_currency(snowblower.bonus) %></td>
     <td><%= link_to 'Details', snowblower %></td>
-    <td><%= link_to 'Modifier', edit_snowblower_path(snowblower) %></td>
-    <td><%= link_to 'Supprimer', snowblower, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% if can? :update, Snowblower %>
+    	<td><%= link_to 'Modifier', edit_snowblower_path(snowblower) %></td>
+    <% end %>
+    <% if can? :destroy, Snowblower %>
+    	<td><%= link_to 'Supprimer', snowblower, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  	<% end %>
   </tr>
 <% end %>
 </table>
