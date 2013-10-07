@@ -1,5 +1,20 @@
 Inventaire::Application.routes.draw do
   
+  resources :territories
+
+
+  resources :cities
+
+
+  resources :addresses
+
+
+  resources :clients
+
+
+  resources :leases
+
+
   get "acceuil/index"
 
   root :to => "acceuil#index"
