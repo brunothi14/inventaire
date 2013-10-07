@@ -22,7 +22,7 @@
 
 
 <table class="table">
-  <tr>
+  <thead><tr>
   	<th><%= sort_link @search, :location, "Emplacement" %></th>
   	<th><%= sort_link @search, :model, "Modele" %></th>
     <th><%= sort_link @search, :serial, "#Serie" %></th>
@@ -34,8 +34,8 @@
     <th></th>
     <th></th>
     <th></th>
-  </tr>
-
+  </tr></thead>
+	<tbody>
 <% @tractors.each do |tractor| %>
 
   <tr class="<%= set_background_kfd(tractor.remainingdays) %>">
@@ -57,7 +57,7 @@
   	<% end %>
   </tr>
 <% end %>
-</table>
+</tbody></table>
 
 <br />
 
