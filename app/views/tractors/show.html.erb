@@ -32,6 +32,7 @@
   <b>Status:</b>
   <%= @tractor.status.stat %>
 </p>
+
 <p>
   <b>Bonus:</b>
   <%= number_to_currency(@tractor.bonus) %>
@@ -48,8 +49,9 @@
   <%= @tractor.description %>
 </p>
 
-
-<%= link_to 'Edit', edit_tractor_path(@tractor) %> |
+<% if can? :update, Tractor %>
+	<%= link_to 'Edit', edit_tractor_path(@tractor) %> |
+<% end %>
 <%= link_to 'Back', tractors_path %>
 
 <p id="notice"><%= notice %></p>

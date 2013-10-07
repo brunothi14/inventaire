@@ -41,6 +41,11 @@
 </p>
 
 <p>
+  <b>Status:</b>
+  <%= @used_other.status.stat %>
+</p>
+
+<p>
   <b>Lsp:</b>
   <%= @used_other.lsp %>
 </p>
@@ -60,6 +65,7 @@
   <%= @used_other.description %>
 </p>
 
-
-<%= link_to 'Edit', edit_used_other_path(@used_other) %> |
+<% if can? :update, UsedOther %>
+	<%= link_to 'Edit', edit_used_other_path(@used_other) %> |
+<% end %>
 <%= link_to 'Back', used_others_path %>

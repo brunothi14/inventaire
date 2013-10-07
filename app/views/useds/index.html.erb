@@ -28,7 +28,7 @@
     <th><%= sort_link @search, :stock, "#Stock" %></th>
     <th><%= sort_link @search, :hours, "Heures" %></th>
     <th><%= sort_link @search, :fielddate, "Arrivee" %></th>
-    
+    <th><%= sort_link @search, :status, "Status" %></th>    
     <th><%= sort_link @search, :lsp, "LSP" %></th>
     <th><%= sort_link @search, :price, "Prix" %></th>
     <th><%= sort_link @search, :bonus, "Bonus" %></th>
@@ -48,6 +48,7 @@
     <td><%= used.stock %></td>
     <td><%= used.hours %></td>
     <td><%= used.fielddate %></td>
+    <td><%= used.status.stat %></td>
     <td><%= number_to_currency(used.lsp) %></td>
     <td><%= number_to_currency(used.price) %></td>
     <td><%= number_to_currency(used.bonus) %></td>

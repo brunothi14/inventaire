@@ -34,6 +34,10 @@
   <b>Fielddate:</b>
   <%= @used_accessory.fielddate %>
 </p>
+<p>
+  <b>Status:</b>
+  <%= @used_accessory.status.stat %>
+</p>
 
 <p>
   <b>Lsp:</b>
@@ -55,6 +59,7 @@
   <%= @used_accessory.description %>
 </p>
 
-
-<%= link_to 'Edit', edit_used_accessory_path(@used_accessory) %> |
+<% if can? :update, UsedAccesory %>
+	<%= link_to 'Edit', edit_used_accessory_path(@used_accessory) %> |
+<% end %>
 <%= link_to 'Back', used_accessories_path %>

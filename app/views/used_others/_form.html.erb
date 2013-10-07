@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+<div class="field">
+    <%= f.label "Status" %><br />
+    <%= f.collection_select(:status_id, Status.all, :id, :stat ) %>    
+  </div>
+
   <div class="field">
     <%= f.label "Emplacement" %><br />
     <%= f.collection_select(:location_id, Location.all, :id, :name ) %>    

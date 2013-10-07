@@ -13,13 +13,7 @@
 
   <div class="field">
     <%= f.label "Status" %><br />
-    <%= f.collection_select(:status_id, Status.all, :id, :stat ) %>
-    
-    <%-# :color_id is the foreign key that resides in the Users table
-    #:Color.all specifies which records to include in the drop down list
-	#:id is the primary key in the Colors table
-	#:color_name is the field from the Colors table to display in the drop down list
-    -%>
+    <%= f.collection_select(:status_id, Status.all, :id, :stat ) %>    
   </div>
   
   
