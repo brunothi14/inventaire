@@ -1,5 +1,5 @@
 class Attachement < ActiveRecord::Base
-  attr_accessible :fonction, :emplacement, :stock, :marque, :modele, :description, :prix, :bonus, :serial, :fielddate 
+  attr_accessible :fonction, :emplacement, :stock, :marque, :modele, :description, :prix, :bonus, :serial, :fielddate, :age
   belongs_to :tractor
  
   def self.to_csv(options = {})

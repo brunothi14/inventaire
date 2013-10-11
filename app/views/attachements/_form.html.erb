@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-<table>
+<table class="table">
 	<tr>
 		<td>
   <div class="field">
@@ -65,12 +65,19 @@
     <%= f.text_field :prix %>
   </div>
   </td>
-  </tr>
-  <tr>
+  
   <td>
   <div class="field">
     <%= f.label :bonus %><br />
     <%= f.text_field :bonus %>
+  </div>
+  </td>
+  </tr>
+  <tr>
+  <td colspan="3">
+  	<div class="field">
+    <%= f.label "Date Arrivee" %><br />
+    <%= f.date_select :fielddate %>
   </div>
   </td>
   

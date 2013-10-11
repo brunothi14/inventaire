@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130923144408) do
+ActiveRecord::Schema.define(:version => 20131007185336) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -27,6 +27,16 @@ ActiveRecord::Schema.define(:version => 20130923144408) do
   add_index "active_admin_comments", ["author_type", "author_id"], :name => "index_active_admin_comments_on_author_type_and_author_id"
   add_index "active_admin_comments", ["namespace"], :name => "index_active_admin_comments_on_namespace"
   add_index "active_admin_comments", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
+
+  create_table "addresses", :force => true do |t|
+    t.integer  "number"
+    t.string   "unit"
+    t.string   "street"
+    t.string   "pcode"
+    t.integer  "city_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "admin_users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -61,8 +71,29 @@ ActiveRecord::Schema.define(:version => 20130923144408) do
     t.date     "fielddate"
   end
 
+  create_table "base_useds", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "brands", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "cities", :force => true do |t|
+    t.string   "name"
+    t.integer  "territory_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "clients", :force => true do |t|
+    t.string   "name"
+    t.integer  "tel1"
+    t.integer  "tel2"
+    t.integer  "address_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -81,6 +112,11 @@ ActiveRecord::Schema.define(:version => 20130923144408) do
 
   create_table "families", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "leases", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -148,6 +184,12 @@ ActiveRecord::Schema.define(:version => 20130923144408) do
 
   create_table "statuses", :force => true do |t|
     t.string   "stat"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "territories", :force => true do |t|
+    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
