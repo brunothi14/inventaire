@@ -12,7 +12,7 @@ class Attachement < ActiveRecord::Base
   end
  
   def age
-    return (Date.today - self.fielddate).to_i
+    return self.fielddate ? (Date.today - self.fielddate).to_i : -1
   end
   
   
