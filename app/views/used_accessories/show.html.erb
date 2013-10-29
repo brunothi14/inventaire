@@ -59,7 +59,7 @@
   <%= @used_accessory.description %>
 </p>
 
-<% if can? :update, UsedAccesory %>
+<% if can? :update, UsedAccessory %>
 	<%= link_to 'Edit', edit_used_accessory_path(@used_accessory) %> |
 <% end %>
 <%= link_to 'Back', used_accessories_path %>
