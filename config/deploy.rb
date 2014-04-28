@@ -15,7 +15,7 @@ set :applicationdir, '/var/www/rails/inventaire'
 # Git config
 set :scm, "git"
 set :repository,  "git://github.com/brunothi14/inventaire.git"
-set :branch, "master"
+set :branch, "smartsheet"
 
 # Production nodes 
 role :web, "extra.centrekubota.ca"
