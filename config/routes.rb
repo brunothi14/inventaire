@@ -1,5 +1,8 @@
 Inventaire::Application.routes.draw do
   
+  resources :smartsheets
+
+
   resources :territories
 
 

@@ -8,7 +8,7 @@
 
 
 # Remplissage de la table Status
-["Stock", "Stock LAP", "Stock CKL", "Vendu", "Pret", "Demo"].each do |x|
+["Stock", "Stock LAP", "Stock CKL", "Stock QUE", "Stock RIM","Vendu", "Pret", "Demo"].each do |x|
   Status.find_or_create_by_stat(x)
 end
 
@@ -19,7 +19,7 @@ end
 end
 
 # Remplissage de la table Location
-["LAP", "CKL"].each do |x|
+["LAP", "CKL", "QUE", "RIM"].each do |x|
   Location.find_or_create_by_name(x)
 end
 
