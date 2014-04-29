@@ -1,0 +1,21 @@
+<h1>Listing smartsheets</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @smartsheets.each do |smartsheet| %>
+  <tr>
+    <td><%= link_to 'Show', smartsheet %></td>
+    <td><%= link_to 'Edit', edit_smartsheet_path(smartsheet) %></td>
+    <td><%= link_to 'Destroy', smartsheet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<IFRAME WIDTH=1000 HEIGHT=700 FRAMEBORDER=0 SRC="https://app.smartsheet.com/b/publish?EQBCT=04b66cd1f49e42f984d0dcb6d75c13e7"></IFRAME>
+<% link_to 'New Smartsheet', new_smartsheet_path %>
